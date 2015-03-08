@@ -62,6 +62,13 @@
 			}
 		];
 		
+		firefox = [
+			{
+				nama : "Markdown",
+				link : "http://bit.ly/downloadmarkdown"
+			}
+		];
+		
 	</script>
 </head>
 <body>
@@ -118,6 +125,19 @@
 						<script type="text/javascript">
 							for (i=0; i<androidapps.length; i++){
 								document.writeln('<a href="'+website[i].link+'" class="list-group-item">'+website[i].nama+'</a>');
+							}
+						</script>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-4 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">Firefox Extension</div>
+					<div class="list-group">
+						<script type="text/javascript">
+							for (i=0; i<firefox.length; i++){
+								document.writeln('<a href="'+firefox[i].link+'" class="list-group-item">'+firefox[i].nama+'</a>');
 							}
 						</script>
 					</div>
