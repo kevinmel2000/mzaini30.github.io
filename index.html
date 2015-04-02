@@ -76,6 +76,19 @@
 			}
 		];
 		
+		markdown = [
+			{
+				nama : "Reading Quran",
+				link : "http://mzaini30.github.io/markdown/readingquran.txt"
+			}, {
+				nama : "Reading Book",
+				link : "http://mzaini30.github.io/markdown/readingbook.txt"
+			}, {
+				nama : "Sunting",
+				link : "https://github.com/mzaini30/mzaini30.github.io/tree/master/markdown"
+			}
+		];
+		
 	</script>
 </head>
 <body>
@@ -158,6 +171,19 @@
 						<script type="text/javascript">
 							for (i=0; i<css.length; i++){
 								document.writeln('<a href="'+css[i].link+'" class="list-group-item">'+css[i].nama+'</a>');
+							}
+						</script>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-4 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">Markdown</div>
+					<div class="list-group">
+						<script type="text/javascript">
+							for (i=0; i<markdown.length; i++){
+								document.writeln('<a href="'+markdown[i].link+'" class="list-group-item">'+markdown[i].nama+'</a>');
 							}
 						</script>
 					</div>
