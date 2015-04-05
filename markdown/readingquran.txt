@@ -43,3 +43,6 @@ Tanggal | Halaman | Selisih | Grafik
 Tanggal | Halaman | Selisih | Grafik
 -:|-|-|-
 1 | 427 | 17 | ooooooooooooooooo
+2 | 435 | 8 | oooooooo
+3 | 435 | 0 |
+4 | 461 | 26 | oooooooooooooooooooooooooo
