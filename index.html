@@ -89,6 +89,13 @@
 			}
 		];
 		
+		ebook = [
+			{
+				nama : "Kumpulan Artikel Ustadz Felix Siauw",
+				link : "http://bit.ly/ebookfelixsiauw"
+			}
+		];
+		
 	</script>
 </head>
 <body>
@@ -184,6 +191,19 @@
 						<script type="text/javascript">
 							for (i=0; i<markdown.length; i++){
 								document.writeln('<a href="'+markdown[i].link+'" class="list-group-item">'+markdown[i].nama+'</a>');
+							}
+						</script>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-4 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">Ebook</div>
+					<div class="list-group">
+						<script type="text/javascript">
+							for (i=0; i<ebook.length; i++){
+								document.writeln('<a href="'+ebook[i].link+'" class="list-group-item">'+ebook[i].nama+'</a>');
 							}
 						</script>
 					</div>
