@@ -177,3 +177,15 @@ table table {
 img {
 	max-width: 100%;
 }
+
+h1 {
+	page-break-before: always;
+}
+
+h1:first-child {
+	page-break-before: avoid;
+}
+
+h1.mati {
+	page-break-before: avoid;
+}
