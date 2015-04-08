@@ -1,3 +1,5 @@
+
+
 # Reading Quran
 
 ***
@@ -46,3 +48,6 @@ Tanggal | Halaman | Selisih | Grafik
 2 | 435 | 8 | oooooooo
 3 | 435 | 0 |
 4 | 461 | 26 | oooooooooooooooooooooooooo
+5 | 473 | 12 | oooooooooooo
+6 | 473 | 0 |
+7 | 493 | 20 | oooooooooooooooooooo
