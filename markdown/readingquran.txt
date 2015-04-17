@@ -4,13 +4,13 @@
 
 ***
 
-* [Maret 2015](#maret-2015 "Maret 2015")
-* [April 2015](#april-2015 "April 2015")
+* [Maret 2015](#maret-2015)
+* [April 2015](#april-2015)
 
 ## Maret 2015
 
 Tanggal | Halaman | Selisih | Grafik
--:|-|-|-
+-:|-|-|:-
 4 | 167 | 0 |
 5 | 189 | 22 | oooooooooooooooooooooo
 6 | 189 | 0 |
@@ -43,7 +43,7 @@ Tanggal | Halaman | Selisih | Grafik
 ## April 2015
 
 Tanggal | Halaman | Selisih | Grafik
--:|-|-|-
+-:|-|-|:-
 1 | 427 | 17 | ooooooooooooooooo
 2 | 435 | 8 | oooooooo
 3 | 435 | 0 |
@@ -51,3 +51,12 @@ Tanggal | Halaman | Selisih | Grafik
 5 | 473 | 12 | oooooooooooo
 6 | 473 | 0 |
 7 | 493 | 20 | oooooooooooooooooooo
+8 | 498 | 5 | ooooo
+9 | 515 | 17 | ooooooooooooooooo
+10 | 537 | 22 | oooooooooooooooooooooo
+11 | 565 | 28 | oooooooooooooooooooooooooooo
+12 | 588 | 23 | ooooooooooooooooooooooo
+13 | 3 | 17 | ooooooooooooooooo
+14 | 11 | 8 | ooooooo
+15 | 25 | 14 | oooooooooooooo
+16 | 25 | 0 |
