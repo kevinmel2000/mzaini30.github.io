@@ -1,76 +1,43 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="initial-scale=1, width=device-width"/>
-	<title>Muhammad Zaini Project . @mzaini30</title>
-</head>
-<body>
-	<div id="markdown">
-	
-# Muhammad Zaini Project
-
-<center>
-Teman terbaik adalah dirimu sendiri :D
-</center>
-
-***
-
-* ## Stay Connected
-* [Facebook](https://facebook.com/mzaini30)
-* [Twitter](https://twitter.com/mzaini30)
-
-
-* ## Android Apps
-* [Hadits Arbain](http://bit.ly/downloadhaditsarbain)
-* [Huruf Jepang](http://bit.ly/downloadhurufjepang)
-* [Suara Hewan](http://bit.ly/downloadsuarahewan)
-* [Muslim Designer Community](http://bit.ly/downloadmdc2)
-* [Zikr](http://bit.ly/downloadzikr3)
-* [Petuah](http://bit.ly/downloadpetuah3)
-
-
-* ## jQuery Plugins
-* [Facebook Emoticon](http://mzaini30.github.io/facebookemoticon)
-
-
-* ## Firefox Extension
-* [Markdown](http://bit.ly/downloadmarkdown)
-
-
-* ## Markdown
-* [Reading Quran](http://mzaini30.github.io/markdown/readingquran.txt)
-* [Reading Book](http://mzaini30.github.io/markdown/readingbook.txt)
-* [Sunting](https://github.com/mzaini30/mzaini30.github.io/tree/master/markdown)
-
-
-* ## Website
-* [Nyankod Magz](http://mzaini30.github.io/nyankodmagz)
-
-
-* ## CSS
-* [Ebook](http://mzaini30.github.io/ebook/style.css)
-
-
-* ## Ebook
-* [Kumpulan Artikel Ustadz Felix Siauw](bit.ly/ebookfelixsiauw)
-
-
-* ## Notepad++
-* [Markdown Highlight](http://mzaini30.github.io/npp/markdown.xml)
-
-<div class="hapus"></div>
-
-***
-
-<center>
-[@mzaini30](https://twitter.com/mzaini30)
-</center>
-	
-	</div>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="style 2.css" media="all" />
-	<script type="text/javascript" src="marked.js"></script>
-	<script type="text/javascript" src="script.js"></script>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Muhammad Zani</title>
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+      a:hover, a:focus{
+      	text-decoration: none;
+      }
+    </style>
+    <script>
+      var data = [{
+      	teks: "blog",
+      	link: "http://privacy30.wordpress.com"
+      }, {
+      	teks: "portofolio",
+      	link: "http://kuccing.wordpress.com"
+      }, {
+      	teks: "facebook",
+      	link: "http://facebook.com/mzaini30"
+      }, {
+      	teks: "line",
+      	link: "http://bit.ly/linemzaini30"
+      }];
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-right">Muhammad Zaini</h1>
+        <p class="text-right">I am book holic</p>
+      </div>
+      <div class="row">
+        <script>
+          for (var x = 0; x < data.length; x++){
+          	document.writeln("<div class='col-md-4 col-sm-6 col-xs-12'><a href='"+data[x].link+"' target='_blank'><div class='jumbotron'><h1 class='text-center'>"+data[x].teks+"</h1></div></a></div>");
+          }
+        </script>
+      </div>
+    </div>
+  </body>
 </html>
