@@ -1,0 +1,22 @@
+* {
+  word-break: break-all;
+}
+.grid-item {
+  width: 33.3%;
+}
+.grid-item h1 {
+  background: #eee;
+  padding: 20px;
+  margin: 0;
+  margin: 10px;
+}
+@media (max-width: 768px){
+  .grid-item {
+    width: 50%;
+  }
+}
+@media (max-width: 400px){
+  .grid-item {
+    width: 100%;
+  }
+}

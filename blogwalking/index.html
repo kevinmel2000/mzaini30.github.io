@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<script>
+			document.writeln("<sc"+"ript src='data.js?"+Math.random()+"'></s"+"cript>")
+		</script>
+		<script src="jquery.min.js"></script>
+		<script src="masonry.pkgd.min.js"></script>
+		<link rel="stylesheet" href="bootstrap.min.css"/>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="app.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Blogwalking</h1>
+			<p>Refresh untuk melihat daftar blog lainnya</p>
+			<hr/>
+			<div class="grid">
+				<div class="grid-item">
+					<script>tulis(0)</script>
+				</div>
+				<div class="grid-item">
+					<script>tulis(1)</script>
+				</div>
+				<div class="grid-item">
+					<script>tulis(2)</script>
+				</div>
+				<div class="grid-item">
+					<script>tulis(3)</script>
+				</div>
+				<div class="grid-item">
+					<script>tulis(4)</script>
+				</div>
+				<div class="grid-item">
+					<script>tulis(5)</script>
+				</div>
+			</div>
+			<hr/>
+			<p class="text-center"><a target="_blank" href="#">Edit</a></p>
+		</div>		
+	</body>
+	<script>
+		$(".grid").masonry({
+			itemSelector: ".grid-item"
+		})
+	</script>
+</html>
