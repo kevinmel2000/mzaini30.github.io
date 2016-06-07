@@ -12,7 +12,7 @@ blog = [
 "Mengapa Diam?, http://mengapadiam.blogspot.com",
 "Yulia, http://www.julayjo.net",
 "Adi Setiadi, https://catatanabifaiz.wordpress.com",
-"Adi Setiadi, http://www.tukangjalanjajan.com",
+"Eko Dony Prayudi, http://www.tukangjalanjajan.com",
 "Jiah My Id, http://www.jiah.my.id",
 "Rin Mizsipoel, http://www.mizsipoel.com",
 "Light & Life, https://nuii4u.wordpress.com",
