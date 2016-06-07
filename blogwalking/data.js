@@ -18,5 +18,10 @@ blog = [
 "Light & Life, https://nuii4u.wordpress.com",
 "Sastra Ananta, http://www.sastraananta.com",
 "Sandi Iswahyudi, http://sandiiswahyudi.com",
-"House of Sanimpen, http://82122964.blogspot.com"
+"House of Sanimpen, http://82122964.blogspot.com",
+"From Heart to Heart, http://faridaryany.com",
+"Agung Rangga, http://agungrangga.com",
+"Bayupapz, http://www.bayupapz.com",
+"A Beauty Blog by Hani Hikaru, http://www.nonahikaru.com",
+"Zam, http://medium.com/@zalab"
 ]
