@@ -23,5 +23,6 @@ blog = [
 "Agung Rangga, http://agungrangga.com",
 "Bayupapz, http://www.bayupapz.com",
 "A Beauty Blog by Hani Hikaru, http://www.nonahikaru.com",
-"Zam, http://medium.com/@zalab"
+"Zam, http://medium.com/@zalab",
+""
 ]
