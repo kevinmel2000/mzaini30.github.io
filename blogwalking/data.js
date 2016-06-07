@@ -1,12 +1,22 @@
 blog = [
-"Muhammad Zaini, http://muhammadzaini.com",
 "Felix Siauw, http://felixsiauw.com",
 "Japanese Station, http://japanesestation.com",
 "Codepolitan, http://codepolitan.com",
 "Unidzalika, http://unidzalika.com",
 "Jung Jawa, http://jungjawa.com",
-"Afrianti Eka Pratiwi, http://afrianpratiwi.com",
 "Marfa, http://umimarfa.web.id",
-"Hay Dee Rahma, http://haydeerahma.com",
-"Indo Crop Circles, http://indocropcircles.wordpress.com/site-map"
+"Hay Dee Rahma, http://heydeerahma.com",
+"Indo Crop Circles, http://indocropcircles.wordpress.com/site-map",
+"Andhika, http://andhikamppp.com",
+"Yuk Nyatet, http://yuknyatet.blogspot.com",
+"Mengapa Diam?, http://mengapadiam.blogspot.com",
+"Yulia, http://www.julayjo.net",
+"Adi Setiadi, https://catatanabifaiz.wordpress.com",
+"Adi Setiadi, http://www.tukangjalanjajan.com",
+"Jiah My Id, http://www.jiah.my.id",
+"Rin Mizsipoel, http://www.mizsipoel.com",
+"Light & Life, https://nuii4u.wordpress.com",
+"Sastra Ananta, http://www.sastraananta.com",
+"Sandi Iswahyudi, http://sandiiswahyudi.com",
+"House of Sanimpen, http://82122964.blogspot.com"
 ]
