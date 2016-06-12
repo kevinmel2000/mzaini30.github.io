@@ -1,0 +1,792 @@
+/*
+* FlatPack HTML V1
+* Copyright 2014 PixFort
+* www.pixfort.com
+* 28/10/2014
+*/
+
+
+/* Table of Content
+==================================================
+
+	Part 0:  #Misc
+	Part 1:  #Header
+	Part 2:  #Contact
+	Part 3:  #Features
+	Part 4:  #Features2
+	Part 5:  #Services
+	Part 6:  #Clients
+	Part 7:  #Testimonials
+	Part 8:  #Contact
+	Part 9:  #Footer
+
+==================================================
+*/
+
+/*---  Part 0:  #Misc   ---*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400);
+
+body { font-family: 'Open Sans', sans-serif; !important; }
+iframe.c1 {border:none; overflow:hidden; height:20px;width:50px; }
+
+.pixfort_real_estate_4 .slow_fade {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+     -o-transition: all 0.2s linear;
+}
+/*---  Part 1:  #Header   ---*/
+
+     .pixfort_real_estate_4 .header_style {
+        background: #fff;
+        padding-top: 25px;
+        padding-bottom: 18px;
+       	border-bottom: 3px solid #ddd;
+     }
+
+    .pixfort_real_estate_4 .yt_button {
+        float: right;
+        height: 32px;
+        width: 32px;
+        background: url("../images/Social_icons/yt.png");
+        margin-left: 7px;
+    }
+
+    .pixfort_real_estate_4 .yt_button:hover {
+        float: right;
+        background: url("../images/Social_icons/youtube-hover.png");
+    }
+
+    .pixfort_real_estate_4 .twitter_button {
+        float: right;
+        height: 32px;
+        width: 32px;
+        background: url("../images/Social_icons/twitter.png");
+        margin-left: 7px;
+    }
+
+    .pixfort_real_estate_4 .twitter_button:hover {
+        float: right;
+        background: url("../images/Social_icons/twitter-hover.png");
+    }
+
+    .pixfort_real_estate_4 .facebook_button {
+        float: right;
+        height: 32px;
+        width: 32px;
+        background: url("../images/Social_icons/facebook.png");
+        margin-left: 5px;
+    }
+
+    .pixfort_real_estate_4 .facebook_button:hover {
+        float: right;
+        background: url("../images/Social_icons/facebook-hover.png");
+    }
+
+     .pixfort_real_estate_4 .htext_style {
+        color:#a9a9a9;
+        font-size:14px;
+        float: right;
+        margin-right: 15px;
+        padding-top: 5px;
+    }
+
+/*---  Part 2:  #Contact   ---*/
+
+    .pixfort_real_estate_4 .page_style {
+        background: linear-gradient( rgba(138,186,86,0) , rgba(138,186,86,0.3) 95% ),
+                url("../images/4_real_estate/bg.png") fixed no-repeat center top;
+      	-webkit-background-size: cover;
+      	-moz-background-size: cover;
+      	-o-background-size: cover;
+      	background-size: cover;
+    }
+
+    .pixfort_real_estate_4 .text_page { text-align: center; }
+
+    .pixfort_real_estate_4 .home_st { padding: 60px 0px;padding-bottom: 40px; }
+
+    .pixfort_real_estate_4 .start_style {
+        text-align: center;
+    	font-size:48px;
+        font-family: 'open sans', sans-serif;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .pixfort_real_estate_4 .txt_start {
+        text-align: center;
+    	color:#d3d3d3;
+        font-size:18px;
+        font-family: 'open sans', sans-serif;
+        max-width: 72%;
+        margin-left: 14%;
+        line-height: 30px;
+    }
+
+     .pixfort_real_estate_4 .gethouse_btn a {
+        background: #8aba56;
+        border: none;
+    	border-radius: 3px;
+    	font-family: 'open sans', sans-serif;
+    	font-weight: normal;
+    	font-size: 16px;
+    	color: #fff;
+        text-decoration:none;
+        position: relative;
+        display: inline-block;
+        padding: 15px  30px;
+        margin-bottom: 20px;
+     }
+
+    .pixfort_real_estate_4 .gethouse_btn a:hover {
+        background: #77b141 ;
+        border: none;
+    	border-radius: 3px;
+    	font-family: 'open sans', sans-serif;
+    	font-weight: normal;
+    	font-size: 16px;
+    	color: #fff;
+     }
+
+    .pixfort_real_estate_4 .note_st {
+        text-align: center;
+    	color:#f0fff0;
+        font-size:13px;
+        font-family: 'open sans', sans-serif;
+        padding-bottom: 40px;
+    }
+
+/*---  Part 3:  #Features   ---*/
+
+    .pixfort_real_estate_4 .pad_top{ padding-top: 30px; }
+
+    .pixfort_real_estate_4 .cal_style {
+        background: #f3ffe6;
+    	background-size: cover;
+    	font-family: 'open sans', sans-serif;
+    	border-bottom: 3px solid #ddf2c7;
+    }
+
+    .pixfort_real_estate_4 .img_st { display: inline-block; }
+
+    .pixfort_real_estate_4 .ctext_style {
+        position: relative;
+    	display: inline-block;
+    	padding-left: 15px;
+    	padding-bottom: 15px;
+    }
+
+    .pixfort_real_estate_4 .calc_st {
+        color:#696969;
+        font-weight: bold;
+        font-size:16px;
+        font-family: 'open sans', sans-serif;
+    }
+
+    .pixfort_real_estate_4 .calc_text {
+        color:#a9a9a9;
+        font-size:14px;
+        font-family: 'open sans', sans-serif;
+        max-width: 192px;
+    }
+
+/*---  Part 4:  #Features2   ---*/
+
+    .pixfort_real_estate_4 .Homes {
+        background: #fff;
+    	background-size: cover;
+        padding-top: 50px;
+    }
+
+    .pixfort_real_estate_4 .title_homes {
+        text-align: center;
+    	font-size:28px;
+        font-weight: bold;
+        color:#000000;
+        font-family: 'open sans', sans-serif;
+    }
+
+    .pixfort_real_estate_4 .subtitle_homes {
+        text-align: center;
+        color: rgb(169, 169, 169);
+        font-family: 'open sans', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 60%;
+        margin-left: 20%;
+        padding-bottom: 15px;
+    }
+
+    .pixfort_real_estate_4 .bloc_home {
+        text-align: left;
+        border-bottom: 3px solid #ddf2c7;
+        background: #f3ffe6;
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+
+    .pixfort_real_estate_4 .Home_photo {
+        float: left;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+    }
+
+    .pixfort_real_estate_4 .Home_info {
+        width: 56%;
+        display: inline-block;
+        text-align: left;
+        padding-left: 4%;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+    }
+
+
+    .pixfort_real_estate_4 .tit_info{
+        font-size:18px;
+        color:#696969;
+        font-weight: bold;
+        font-family: 'open sans', sans-serif;
+        padding-top: 30px;
+        line-height: 30%;
+    }
+
+    .pixfort_real_estate_4 .txt_info{color:#a9a9a9;
+        font-size:14px;
+        font-family: 'open sans', sans-serif;
+        //line-height: 100%;
+    }
+
+    .pixfort_real_estate_4 .info1{line-height: 200%;
+        font-size:14px;
+        font-weight: bold;
+        font-family: 'open sans', sans-serif;
+        //position: relative;
+        //top: -30px;
+    }
+
+    .pixfort_real_estate_4 .left40{padding-left: 40px;
+    }
+
+    .pixfort_real_estate_4 .left10{padding-left: 10px;
+    }
+
+    .pixfort_real_estate_4 .green{color: #8aba56;
+    }
+
+    .pixfort_real_estate_4 .gris{color: rgb(105, 105, 105);;
+    }
+
+    .pixfort_real_estate_4 .info2{
+        font-size:14px;
+        font-weight: bolder;
+        font-family: 'open sans', sans-serif;
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .pixfort_real_estate_4 .contact_btn a{background: #8aba56;
+        border: none;
+    	border-radius: 2px;
+    	font-family: 'open sans', sans-serif;
+    	font-weight: normal;
+    	font-size: 14px;
+    	color: #fff;
+
+        text-decoration:none;
+
+        position: relative;
+        display: inline-block;
+
+        padding: 5px  10px;
+
+        margin-left:10px;
+
+     }
+
+    .pixfort_real_estate_4 .contact_btn a:hover {background: #77b141 ;
+        border: none;
+    	border-radius: 2px;
+    	font-family: 'open sans', sans-serif;
+    	//font-weight: normal;
+    	font-size: 14px;
+    	color: #fff;
+     }
+
+/*---  Part 5:  #Services   ---*/
+
+    .pixfort_real_estate_4 .Designs_style {background: #fff;
+    	background-size: cover;
+        padding: 70px 0px;
+    }
+
+    .pixfort_real_estate_4 .homeplan_st{position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .pixfort_real_estate_4 .img4_st{position: relative;
+        display: inline-block;
+        width: 79%;
+        height: auto;
+
+    }
+
+    .pixfort_real_estate_4 .Designs_text_style{position: relative;
+        display: inline-block;
+        text-align: left;
+    	padding-left: 25px;
+        max-width: 435px;
+        vertical-align: top;
+        //top: 10px;
+
+    }
+
+    .pixfort_real_estate_4 .amaz_tit{color:#000;
+	font-family: 'open sans', sans-serif;
+    font-size:28px;
+    font-weight: normal;
+    line-height: 100%;
+   }
+
+   .pixfort_real_estate_4 .amaz_subtit{color: rgb(85, 85, 85);
+    	font-size:20px;
+    	font-family: 'open sans', sans-serif;
+    }
+
+    .pixfort_real_estate_4 .amaz_text{color:#a9a9a9;
+    	font-size:16px;
+    	font-family: 'open sans', sans-serif;
+        line-height: 200%;
+        position: relative;
+        top: -15px;
+    }
+
+    .pixfort_real_estate_4 .contactus_btn a{background: #8aba56;
+        border: none;
+    	border-radius: 2px;
+    	font-family: 'open sans', sans-serif;
+    	font-weight: normal;
+    	font-size: 18px;
+    	color: #ffffff;
+
+        text-decoration:none;
+
+        position: relative;
+        display: inline-block;
+
+        padding: 15px  30px;
+
+        margin-top: -15px;
+
+
+     }
+
+    .pixfort_real_estate_4 .contactus_btn a:hover {background: #77b141 ;
+        border: none;
+    	border-radius: 2px;
+    	font-family: 'open sans', sans-serif;
+    	font-weight: normal;
+    	font-size: 18px;
+    	color: #ffffff;
+     }
+
+/*---  Part 6:  #Clients   ---*/
+    .pixfort_real_estate_4 .logos_style {
+        background: #fff;
+        text-align: center;
+        font-family: 'open sans', sans-serif;
+        padding: 20px 0;
+   }
+
+   .pixfort_real_estate_4 .titres { padding-bottom: 30px; }
+
+   .pixfort_real_estate_4 .L1_style {
+        color:#696969;
+        font-size:24px;
+        font-weight: normal;
+   }
+
+   .pixfort_real_estate_4 .L2_style {
+        color: #a9a9a9;
+        font-size: 18px;
+        padding: 20px 0;
+   }
+
+   .pixfort_real_estate_4 .logos_div {
+        padding-bottom: 30px;
+        padding-top: 20px;
+        display: inline-block;
+    }
+
+   .pixfort_real_estate_4 .logos_st {
+        position: relative;
+        display: inline-block;
+   }
+
+/*---  Part 7:  #Testimonials   ---*/
+    .pixfort_real_estate_4 .envato_unbounce {
+        background: #f3ffe6;
+        text-align: center;
+        font-family: 'open sans', sans-serif;
+        padding: 40px 0px;
+        border-bottom: 3px solid #ddd;
+    }
+
+    .pixfort_real_estate_4 .L1_style {
+        color:#696969;
+        font-size:20px;
+        font-weight: bold;
+        font-family: 'open sans', sans-serif;
+        padding-bottom: 10px;
+   }
+
+   .pixfort_real_estate_4 .L2_style {
+        color: #a9a9a9;
+        font-size: 16px;
+        font-family: 'open sans', sans-serif;
+        padding: 20px 0;
+   }
+
+
+
+   .pixfort_real_estate_4 .box_style {
+        background: #f5f5f5;
+        border-radius: 5px;
+        border-bottom: 3px solid #ddd;
+        width: 100%;
+        margin-top: 40px;
+        position: relative;
+        display: inline-block;
+   }
+
+   .pixfort_real_estate_4 .b_style img {
+        background: #eadbdc;
+        float:left;
+        height: auto;
+        width: 14%;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 25px;
+    }
+
+    .pixfort_real_estate_4 .logo_style { border-radius: 100%; }
+
+    .pixfort_real_estate_4 .txt_style {
+        background: #fff;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-family: 'open sans', sans-serif;
+        width:72%;
+        color:#808080;
+        padding-top:  20px;
+        padding-left: 20px;
+        padding-right: 15px;
+        text-align: left;
+        font-size: 14px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .pixfort_real_estate_4 .txt { width: 95%; }
+
+    .pixfort_real_estate_4 .stars_div { position: relative;top: -8px;}
+
+    .pixfort_real_estate_4 .zoom img { 
+        position: relative;
+        width: 35%;
+        top: -3px;
+    }
+
+   .pixfort_real_estate_4 .env_st {
+        color:#59a3fc;
+        position: relative;
+        top: -8px;
+   }
+
+/*---  Part 8:  #Contact   ---*/
+   .pixfort_real_estate_4 .contact_section {background: url("../images/4_real_estate/bg.png") fixed no-repeat center top;
+        	-webkit-background-size: cover;
+        	-moz-background-size: cover;
+        	-o-background-size: cover;
+        	background-size: cover;
+          //  height: 500px;
+    }
+
+    .no-margin-right {
+       margin-right:0px !important;
+       padding-right:0px;
+    }
+    .no-margin-left {
+       margin-left:0px !important;
+       padding-left:0px;
+    }
+
+    .pixfort_real_estate_4 .Contact_bloc {
+      background: rgba(186,186,86,0.2);
+        position: relative;
+        display: inline-block;
+    }
+
+    .pixfort_real_estate_4 .text_input{width: 76%;
+        text-align: left;
+        padding-left: 12%;
+
+    }
+
+    .pixfort_real_estate_4 .headtext_style{color:#ffffff;
+    	font-size:20px;
+    	font-family: 'open sans', sans-serif;
+        padding-top: 55px;
+        padding-bottom: 20px;
+        //padding-left: 60px;
+    }
+
+    .pixfort_real_estate_4 .subtext_style {font-size:14px;
+    	font-family: 'open sans', sans-serif;
+    	color:#ffffe0;
+        width: 75%;
+        padding-bottom: 14px;
+        //padding-left:60px;
+    }
+
+    .pixfort_real_estate_4 .style11 {
+        margin-bottom: -8px;
+        padding: 0px;
+        display: inline-block;
+    }
+    
+
+    .pixfort_real_estate_4 .plan_st iframe {
+        position:relative;
+        display: inline-block;
+        width: 100%;
+        min-height:525px;
+
+        //border: 1px solid red;
+        //margin: 0px !important;
+        overflow: hidden;
+        display:block; 
+    }
+
+
+
+    .pixfort_real_estate_4 .submit_btn {background: #8aba56;
+        	padding: 30px 30px 5px 15px;
+            position: relative;
+        	border: none;
+
+        	border-radius: 5px;
+        	padding-top: 50px;
+        	color: #fff;
+        	margin: 0;
+        	padding: 15px 10px;
+            position: relative;
+        	width: 100%;
+        	//height: 50px;
+        	font-family: 'open sans', sans-serif;
+        	font-weight: normal;
+        	font-size: 16px;   
+    }
+
+
+    .pixfort_real_estate_4 .submit_btn:hover {background: #77b141;
+        	border: none;
+        	border-radius: 5px;
+        	color: #fff;
+        	margin: 0;
+        	font-family: 'open sans', sans-serif;
+        	font-weight: normal;
+        	font-size: 16px;
+    }
+
+
+    .pixfort_real_estate_4 .contact_st{position: relative;
+        display: inline-block;
+        padding-bottom: 50px;
+        //padding-left: 60px;
+        width: 100%;
+
+
+    }
+
+     .pixfort_real_estate_4 #contact_form fieldset{
+        position: relative;
+
+    }
+   .pixfort_real_estate_4 #contact_form  input {
+
+        padding: 10px 0;
+        //border: none;
+        border-radius: 3px;
+        color: #000;
+        font-family: 'open sans', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        width: 100%;
+        height: 50px;
+        padding-left: 10px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+    }
+
+
+/*---  Part 9:  #Footer   ---*/
+
+    .pixfort_real_estate_4 .foot_st{background: #F2F2F2;
+        text-align: center;
+    }
+
+   .pixfort_real_estate_4 .rights_st{color:#a9a9a9;
+    font-size:14px;
+    font-family: 'open sans', sans-serif;
+    text-align: left;
+    padding-top: 25px;
+    position: relative;
+    display: inline-block;
+   }
+
+   .pixfort_real_estate_4 .pixfort_st{color:#f68121;
+         font-weight: bold;
+         font-size:14px;
+         font-family: 'open sans', sans-serif;
+         text-align: left;
+         position: relative;
+         display: inline-block;
+   }
+
+   .pixfort_real_estate_4 .likes_st{color:#a9a9a9;
+        font-size:14px;
+        font-family: 'open sans', sans-serif;
+
+        position: relative;
+        display: inline-block;
+        padding-top: 25px;
+        padding-right: 15px;
+        float: right;
+   }
+
+   .pixfort_real_estate_4 .socbuttons{
+        //height: 100%;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+
+        padding-bottom: 10px;
+        width: 100%;
+	}
+
+    .pixfort_real_estate_4 .soc_icons{background: rgba(0,0,0,0.1);
+        border-radius: 3px;
+        //width:40%;
+        position: relative;
+        display:inline-block;
+
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        margin-top: 15px;
+        float: right;
+    }
+
+
+
+
+  /* ------------------------------------------------------------------------------------ */
+
+
+
+
+
+    .confirm_page{
+        display:none;
+        height: auto;
+    }
+    .confirm_page_4{
+        background: #8aba56; 
+        box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0.3) !important;
+        border-radius: 2px;
+        width: 500px;
+        max-width: 100%;
+    }
+    .pixfort_real_estate_4 .confirm_header{
+        text-align: center;
+        color:#fff;
+        margin-left: auto;
+        margin-right: auto;
+
+        line-height: 35px;
+        width: 500px;
+        max-width: 100%;
+        position: relative;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        padding-top: 40px;
+    }
+    .pixfort_real_estate_4 .confirm_text{
+        text-align: center;
+        font-size:16px;
+        color:rgba(255,255,255,0.7);
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .pixfort_real_estate_4 .confirm_logo{
+        text-align: center;
+        padding: 20px;
+    }
+    .pixfort_real_estate_4 .confirm_social{
+        text-align: center;
+    }
+    .pixfort_real_estate_4 .confirm_social .confirm_social_box{
+         background: rgba(0,0,0,0.2);
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+        padding: 10px 6px;
+        border-radius: 3px;
+        padding-bottom: 0px;
+        box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0.2) !important;
+    }
+    .pixfort_real_estate_4 .confirm_gp {
+        position: relative;
+        top: -15px !important;
+        padding: 0px 20px;
+    }
+
+
+    .pixfort_real_estate_4 .success{
+        background: #CFFFF5;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #B9ECCE;
+        border-radius: 5px;
+        font-weight: normal;
+    }
+    .pixfort_real_estate_4 .error{
+        background: #FFDFDF;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #FFCACA;
+        border-radius: 5px;
+        font-weight: normal;
+    }
