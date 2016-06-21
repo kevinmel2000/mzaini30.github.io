@@ -1,0 +1,384 @@
+/*
+* FlatPack HTML V2
+* Copyright 2015 PixFort
+* www.pixfort.com
+* 7/2/2015
+*/
+
+
+/* Table of Content
+==================================================
+
+    Part 0: #Misc
+    Part 1: #Contact
+    Part 2: #Partners
+    Part 3: #Features
+    Part 4: #Testimonials
+    Part 5: #Footer
+
+==================================================
+*/
+
+/*---  Part 0: #Misc ---*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400);
+
+body { font-family: 'Open Sans', sans-serif; !important; }
+
+.pixfort_party_15 iframe.c1 {border:none; overflow:hidden; height:20px;width:50px; }
+
+
+/*---  Part 1: #Contact ---*/
+
+    .pixfort_party_15 .page_style {background: url("../images/15_party/bg.png") fixed no-repeat center top;
+      	-webkit-background-size: cover;
+      	-moz-background-size: cover;
+      	-o-background-size: cover;
+      	background-size: cover;
+       }
+
+    .pixfort_party_15 .img_width{width: 100%;   }
+
+    .pixfort_party_15 .text_page {text-align: center;
+          position: relative;
+          width:85%;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top: 30px;
+    }
+
+
+    .pixfort_party_15 .title {text-align: center;
+          font-size: 28px;
+          font-family: 'open sans', sans-serif;
+          font-weight: 600;
+          color:#ffffff;
+          margin-top:-100px;
+    }
+
+
+
+    .pixfort_party_15 .subtitle {text-align: center;
+          font-size: 20px;
+          font-family: 'open sans', sans-serif;
+          font-weight: normal;
+          color:#808080;
+          font-style: italic;
+    }
+
+    .pixfort_party_15 .soc_icons_1 {background: rgba(0,0,0,0.25);
+          border-radius: 3px;
+          position: relative;
+
+
+          padding-top: 10px;
+          padding-bottom: 5px;
+          padding-left:15px;
+          padding-right: 15px;
+
+          width: 220px;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          margin-top: 25px;
+          margin-bottom: 25px;
+
+      }
+
+
+
+/*---  Part 2: #Partners ---*/
+
+     .pixfort_party_15 .logos_sect{background: #222022;
+        background-size: cover;
+        text-align: center;
+        border: 2px solid #333;
+    }
+
+     .pixfort_party_15 .padd_updown{padding: 50px 0px;
+        text-align: center;
+        position: relative;
+    }
+
+    .pixfort_party_15 .logos_width{ display: inline-block;
+        max-width: 100%;
+    }
+
+
+
+
+
+
+/*---  Part 3: #Contact ---*/
+
+    .pixfort_party_15 .subscribe{background: #191919;
+    }
+
+    .pixfort_party_15 .style{text-align: center;
+       position: relative;
+
+    }
+
+   .pixfort_party_15 .text_input{background: rgba(0, 0, 0, 0.15);
+        position: relative;
+        border: 1px solid #292929;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+
+        padding-left:20px;
+        padding-right:20px;
+
+        box-sizing:border-box;
+
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .pixfort_party_15 .headtext_style{color:#ffffff;
+    	font-size:26px;
+    	font-family: 'open sans', sans-serif;
+        line-height: 100%;
+        
+    }
+
+    .pixfort_party_15 .segment{background: #1c8ff5;
+        width: 80px;
+        height: 6px;
+        margin: 25px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pixfort_party_15 .subtext_style {color:#808080;
+        font-size:18px;
+    	font-family: 'open sans', sans-serif;
+        max-width:320px;
+        padding-bottom: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pixfort_party_15 .subscribe_btn {background: linear-gradient(rgb(58, 159, 249), rgb(24, 93, 218)) no-repeat;
+      	padding: 30px 30px 5px 15px;
+      	border: none;
+      	border-radius: 3px;
+      	padding-top: 50px;
+      	color: #fff;
+      	margin: 0;
+      	padding: 10px;
+        position: relative;
+      	width: 100%;
+      	height: 48px;
+      	font-family: 'open sans', sans-serif;
+      	font-weight: normal;
+      	font-size: 16px;
+    }
+
+
+    .pixfort_party_15 .subscribe_btn:hover {background: linear-gradient(rgb(18, 77, 207), rgb(44, 137, 237)) no-repeat;
+      	padding: 30px 30px 5px 15px;
+        position: relative;
+      	border: none;
+
+      	border-radius: 5px;
+      	padding-top: 50px;
+      	color: #fff;
+      	margin: 0;
+      	padding: 10px;
+    }
+
+    .pixfort_party_15 .contact_st fieldset{position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .pixfort_party_15 #contact_form {position: relative;
+    }
+
+    .pixfort_party_15 #contact_form  input {position: relative;
+        padding-left: 16px;
+        padding-right: 16px;
+        //border: none;
+        border-radius: 3px;
+        color: #888;
+        font-family: 'open sans', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        width: 100%;
+        height: 48px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+    }
+
+
+/*---  Part 4: #Footer   ---*/
+
+    .pixfort_party_15 .foot_st{background: #151515;
+        text-align: center;
+    }
+
+
+    .pixfort_party_15 .rights_st{color:#a9a9a9;
+        font-size:14px;
+        font-family: 'open sans', sans-serif;
+        text-align: left;
+        padding-top: 25px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .pixfort_party_15 .pixfort_st{color:#1c8ff5;
+        font-weight: bold;
+        font-size:14px;
+        font-family: 'open sans', sans-serif;
+        text-align: left;
+        position: relative;
+        display: inline-block;
+    }
+
+    .pixfort_party_15 .likes_st{color:#a9a9a9;
+        font-size:14px;
+        font-family: 'open sans', sans-serif;
+        position: relative;
+        display: inline-block;
+        padding-right: 15px;
+        padding-top: 25px;
+        float: right;
+    }
+
+    .pixfort_party_15 .socbuttons{
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .pixfort_party_15 .soc_icons{background: rgba(0,0,0,0.0);
+        border-radius: 3px;
+        position: relative;
+        display:inline-block;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 15px;
+        float: right;
+    }
+
+
+
+  /* ------------------------------------------------------------------------------------ */
+
+
+
+    .confirm_page{
+        display:none;
+        height: auto;
+    }
+    .confirm_page_15{
+        background: #222; 
+        box-shadow: inset 0 -5px 0 0 rgba(0,0,0,0.2) !important;
+        border-radius: 0px !important;
+    }
+    
+    .pixfort_party_15 .confirm_header{
+        text-align: center;
+        color:#fff;
+        line-height: 35px;
+        width: 500px;
+        max-width: 100%;
+        position: relative;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        padding-top: 40px;
+    }
+    .pixfort_party_15 .sub_text {
+        color: rgba(255,255,255,0.6);
+        text-align: center;
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    .pixfort_party_15 .code_text {
+        color: #fff;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+    .pixfort_party_15 .code_text span {
+        background: rgba(0,0,0,0.2);
+        padding: 15px;
+        border-radius: 3px;
+        display: inline-block;
+    }
+    .pixfort_party_15 .confirm_text{
+        text-align: center;
+        font-size:16px;
+        color:rgba(255,255,255,0.9);
+        max-width: 400px;
+        margin-left: auto;
+        line-height: 25px;
+        margin-right: auto;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .pixfort_party_15 .confirm_logo{
+        text-align: center;
+        padding: 20px;
+    }
+    .pixfort_party_15 .confirm_social{
+        text-align: center;
+    }
+    .pixfort_party_15 .confirm_social .confirm_social_box{
+         background: rgba(255,255,255,0.2);
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+        padding: 10px 8px;
+        border-radius: 3px;
+        padding-bottom: 0px;
+        box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0.2) !important;
+    }
+    .pixfort_party_15 .confirm_gp {
+        position: relative;
+        top: -15px !important;
+        padding: 0px 20px;
+    }
+
+
+    .pixfort_party_15 .success{
+        background: #CFFFF5;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #B9ECCE;
+        border-radius: 5px;
+        font-weight: normal;
+    }
+    .pixfort_party_15 .error{
+        background: #FFDFDF;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #FFCACA;
+        border-radius: 5px;
+        font-weight: normal;
+    }
+
+
+
+    /*  Parallax fix for small scrren devices   */
+    @media (max-width: 1124px) {
+        .pixfort_party_15 .page_style {
+             background-attachment: scroll;
+        }
+    }
+
+

@@ -1,0 +1,696 @@
+/*
+* FlatPack HTML V1
+* Copyright 2014 PixFort
+* www.pixfort.com
+* 28/10/2014
+*/
+
+
+/* Table of Content
+==================================================
+
+  Part 0:  #Misc
+  Part 1:  #Header
+  Part 2:  #Features
+  Part 3:  #Services
+  Part 4:  #Features2
+  Part 5:  #Services2
+  Part 6:  #Partners
+  Part 7:  #Feadback
+  Part 8:  #Contact
+  Part 9:  #Footer
+
+==================================================
+*/
+
+/*  Part 0:  #Misc       */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400);
+
+body{ font-family: 'Open Sans', sans-serif; !important; }
+
+iframe.c1 {border:none; overflow:hidden; height:20px;width:50px; }
+
+ .pixfort_app_3 .slow_fade {
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+    }
+
+/*  Part 1:  #Header       */
+
+    .pixfort_app_3 .header_style{background: url("../images/3_app/bg.png") #fcf7e7 center fixed no-repeat;
+        	-webkit-background-size: cover;
+        	-moz-background-size: cover;
+        	-o-background-size: cover;
+        	background-size: cover;
+
+		padding-top: 30px;
+
+    }
+
+    .pixfort_app_3 .logo_st{float: left;
+
+    }
+
+    .pixfort_app_3 .soc_st{float: right;
+        margin-right: 7px;
+    }
+
+    .pixfort_app_3 .left_part  {position: relative;
+        display: inline-block;
+
+    }
+
+    .pixfort_app_3 .right_part {position: relative;
+        display: inline-block;
+
+
+    }
+
+
+    .pixfort_app_3 .social_span{border-radius: 3px;
+         position: relative;
+         display: inline-block;
+         //float: right;
+         padding-top: 5px;
+    }
+
+    .pixfort_app_3 .htext_style{color:#d3d3d3;
+	    font-size:14px;
+        //float: right;
+        padding-right: 18px;
+        position: relative;
+        top: -5px;
+        display: inline-block;
+      }
+
+    .pixfort_app_3 .hbloc_style{display: inline-block;
+    	float: left;
+    	text-align: left;
+    	max-width: 432px;
+    	padding-top: 100px;
+        //vertical-align: bottom;
+    }
+    
+    .pixfort_app_3 .title_style{
+      font-size:40px;
+    	font-family: 'open sans', sans-serif;
+    	font-weight: bold;
+    	color: #ffffff;
+        line-height: 100%;
+        padding-top: 30px;
+    }
+    
+    .pixfort_app_3 .txt_title{
+      color:#faebd7;
+    	font-size:18px;
+    	font-family: 'open sans', sans-serif;
+    	padding-bottom: 10px;
+      line-height: 30px;
+    }
+
+    .pixfort_app_3 .contact_btn a{background: rgba(246,129,33,0.0);
+    	border: 3px solid #fff;
+    	border-radius: 3px;
+    	font-family: 'open sans', sans-serif;
+    	font-weight: bold;
+    	font-size: 18px;
+    	color: #fff;
+
+        text-decoration:none;
+
+        position: relative;
+        display: inline-block;
+
+        padding: 12px  50px;
+
+    }
+
+    .pixfort_app_3 .contact_btn a:hover {background: rgba(255,255,255,1.0);
+    	border: 3px solid #fff;
+    	border-radius: 3px;
+    	font-family: 'open sans', sans-serif;
+    	font-weight: bold;
+    	font-size: 18px;
+    	color: #ff8833;
+    }
+    
+
+	
+    .pixfort_app_3 .log_st{padding-top: 15px;
+	    //padding-bottom: 30px;
+	    padding-left: 30px;
+
+    }
+
+    .pixfort_app_3 .log_st:hover{
+      opacity: 0.5;
+    }
+
+    .pixfort_app_3 .phones_style {position: relative;
+    	display: inline-block;
+
+    	margin-top: 110px;
+        margin-right: 7px;
+
+        //border: 1px solid red;
+    }
+
+    .pixfort_app_3 .phones {width: 100%;
+        height: 392px;
+        vertical-align: bottom;
+    }
+
+/*  Part 2:  #Features      */
+
+    .pixfort_app_3 .cal_style{background: #fcf7e7;
+    	background-size: cover;
+    	font-family: 'open sans', sans-serif;
+    	border-bottom: 3px solid #eae2c8;
+    }
+
+    .pixfort_app_3 .pad_top{padding-top: 20px ;
+    }
+
+    .pixfort_app_3 .pad_down{padding-bottom: 50px ;
+    }
+
+    .pixfort_app_3 .bloc_st{display: inline-block;
+    }
+
+
+
+    .pixfort_app_3 .ctext_style{position: relative;
+	display: inline-block;
+	padding-left: 15px;
+	top: 30px;
+    }
+    
+    .pixfort_app_3 .calc_st{
+      color:#000000;
+    	font-size:22px;
+    	font-family: 'open sans', sans-serif;
+    }
+    
+    .pixfort_app_3 .calc_text{
+      color:#696969;
+    	font-size:13px;
+    	font-family: 'open sans', sans-serif;
+    	max-width: 225px;
+      position: relative;
+      top: -10px;
+      line-height: 21px;
+    }
+
+
+/*  Part 3:  #Services      */
+
+    .pixfort_app_3 .amazing_style {background: #fff;
+    	background-size: cover;
+        padding: 100px 0px;
+    }
+
+    .pixfort_app_3 .amazing{text-align: left;
+        //border: 1px solid red;
+    }
+
+    .pixfort_app_3 .amazing_img4_st{position: relative;
+        display: inline-block;
+        width: 100%;
+        height:440px;
+        //padding-top: 50px;
+
+    }
+
+    .pixfort_app_3 .img_st{display: inline-block;
+
+    }
+
+    .pixfort_app_3 .img_st img {position: relative;
+            display: inline-block;
+            max-width: 100%;
+            text-align: center;
+    }
+
+   .pixfort_app_3 .amazing_text_style{display: inline-block;
+    	text-align: left;
+        width: 100%;
+   }
+
+   .pixfort_app_3 .amaz_tit{
+    color:#333333;
+	  font-family: 'open sans', sans-serif;
+    font-size:28px;
+    font-weight: 700;
+    line-height: 100%;
+    padding-top: 10px;
+
+   }
+
+   .pixfort_app_3 .amaz_subtit{color:#808080;
+	font-size:20px;
+	font-family: 'open sans', sans-serif;
+
+
+   }
+
+   .pixfort_app_3 .amaz_text{color: rgb(169, 169, 169);
+	font-size:16px;
+	font-family: 'open sans', sans-serif;
+
+    line-height: 200%;
+   }
+
+   .pixfort_app_3 .suite{position: relative;
+        top: -10px;
+        text-align: left;
+        display: inline-block;
+   }
+
+   .pixfort_app_3 .img2_st{display: inline-block;
+   padding-left: 25px;
+   }
+
+   .pixfort_app_3 .img3_st{display: inline-block;
+   //padding-bottom: 25px;
+   }
+
+   .pixfort_app_3 .text2_style{position: relative;
+        top: -10px;
+        display: inline-block;
+        max-width: 250px;
+        padding: 10px;
+   }
+
+   .pixfort_app_3 .tit2{
+     color:#333333;
+	font-family: 'open sans', sans-serif;
+    font-size:20px;
+   }
+
+   .pixfort_app_3 .txt_st{color: rgb(128, 128, 128);
+        font-family: 'open sans', sans-serif;
+        font-size: 14px;
+   }
+
+/*  Part 4:  #Features2      */
+
+    .pixfort_app_3 .Designs_style {background: #f0f1f5;
+    	background-size: cover;
+        padding: 60px 0px;
+    }
+
+    .pixfort_app_3 .Designs_text_style{
+        display: inline-block;
+    	padding-left: 25px;
+        max-width: 440px;
+    	//padding-top: 50px;
+
+    }
+
+    .pixfort_app_3 .colorful{text-align: left;
+
+    }
+
+    .pixfort_app_3 .colorful_img4_st img {position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 510px;
+    }
+
+/*  Part 5:  #Services2      */
+
+    .pixfort_app_3 .services_style {background: #fff;
+    	background-size: cover;
+        padding: 70px  0px;
+    }
+
+     .pixfort_app_3 .gstyle {position:relative;
+         width: 75%;
+         margin-left: 13%
+   }
+
+   .pixfort_app_3 .t1_style{
+      color: #333333;
+      padding-top: 50px;
+      font-size: 28px;
+      font-family: 'open sans', sans-serif;
+      text-align: center;
+      line-height: 100%;
+      font-weight: bold;
+   }
+
+   .pixfort_app_3 .t2_style{color:#808080;
+        font-size: 20px;
+        padding: 15px 0;
+        font-family: 'open sans', sans-serif;
+        text-align: center;
+   }
+
+   .pixfort_app_3 .t3_style{color:#a9a9a9;
+        font-size: 16px;
+        padding-bottom: 50px;
+        font-family: 'open sans', sans-serif;
+        text-align: center;
+        line-height: 150%;
+   }
+
+   .pixfort_app_3 .th1_style{background: #f2f2f2;
+		width: 91%;
+		border-radius: 3px;
+		border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+
+   .pixfort_app_3 .a_bloc1_style{background: #e3e3e3;
+     border-bottom: 1px solid #ccc;
+   }
+
+   .pixfort_app_3 .a1_style{ text-align: center;
+     color:#808080;
+     font-size:36px;
+     font-weight: bold;
+     font-family: 'open sans', sans-serif;
+     padding-top: 30px;
+
+   }
+
+   .pixfort_app_3 .a2_style{text-align: center;
+        color:#808080;
+        font-size:18px;
+        font-family: 'open sans', sans-serif;
+        padding-bottom: 15px;
+   }
+
+   .pixfort_app_3 .a3_style{text-align: center;
+       color:#808080;
+       font-size:16px;
+       font-family: 'open sans', sans-serif;
+   }
+
+   .pixfort_app_3 .fsc1{font-size: 36px;
+        color: #696969;
+   }
+
+   .pixfort_app_3 .subscribe_st {text-align: center;
+      padding: 20px 0px;
+      height: 42px;
+    }
+
+   .pixfort_app_3 .subscribe_a  a{background: #aaa;
+        border: none;
+        color: #fff;
+        font-family: 'open sans', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 3px;
+
+        text-decoration:none;
+
+        position: relative;
+        display: inline-block;
+
+        padding: 10px 35px;
+    }
+
+  .pixfort_app_3 .subscribe_a a:hover {background: #999;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+
+
+  }
+
+   .pixfort_app_3 .a_bloc3_style{background: #e3e3e3;
+     border-bottom: 1px solid #ccc;
+     position: relative;
+   }
+
+
+
+    .pixfort_app_3 .th2_style{background: #f68121;
+     width: 91%;
+     border-bottom: 1px solid #df6a0a;
+     border-right: 1px solid #df6a0a;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 3px;
+     overflow: hidden;
+   }
+
+   .pixfort_app_3 .b_bloc1_style{background: #df6a0a;
+     border-bottom: 1px solid #df6a0a;
+   }
+
+   .pixfort_app_3 .b1_style{ text-align: center;
+     color:#ffffff;
+     font-size:36px;
+     font-weight: bold;
+     font-family: 'open sans', sans-serif;
+     padding-top: 30px;
+
+   }
+
+   .pixfort_app_3 .b2_style{text-align: center;
+        color:#faebd7;
+        font-size: 16px;
+        font-family: 'open sans', sans-serif;
+        padding-bottom: 15px;
+   }
+
+   .pixfort_app_3 .b3_style{text-align: center;
+       color:#faebd7;
+       font-size:16px;
+       font-family: 'open sans', sans-serif;
+   }
+
+    .pixfort_app_3 .b_bloc3_style{background: #df6a0a;
+     border-top: 1px solid #df6a0a;
+     position: relative;
+     }
+
+     .pixfort_app_3 .fsc2{font-size: 36px;
+        color: #ffffff;
+     }
+
+     .pixfort_app_3 .subscribe_b a{background: #f68121;
+        border: none;
+        color: #fff;
+        font-family: 'open sans', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 3px;
+
+        text-decoration:none;
+
+        position: relative;
+        display: inline-block;
+
+        padding: 10px 35px;
+    }
+
+  .pixfort_app_3 .subscribe_b a:hover {background: #ea6d19;
+        border: none;
+        color: #fff;
+        border-radius: 3px;
+  }
+
+/*  Part 6:  #Partners      */
+
+    .pixfort_app_3 .companies_style {background: #fcf7e7;
+        text-align: center;
+        font-family: 'open sans', sans-serif;
+        padding: 30px  0px;
+    }
+
+    .pixfort_app_3 .titres{padding-bottom: 30px;
+
+     }
+    .pixfort_app_3 .gstyle {position:relative;
+         max-width: 745px;
+         //margin-left: 10%
+    }
+
+    .pixfort_app_3 .comp1_style{color: #696969;
+      font-size: 20px;
+      font-family: 'open sans', sans-serif;
+      text-align: center;
+      font-weight: bold;
+   }
+
+   .pixfort_app_3 .comp2_style{color:#a9a9a9;
+        font-size: 16px;
+        padding: 15px 0;
+        font-family: 'open sans', sans-serif;
+        text-align: center;
+   }
+
+
+/*  Part 7:  #Feadback      */
+
+     .pixfort_app_3 .awesome_style{background: #f68121;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .pixfort_app_3 .h_awesome{color:#ffffff;
+        text-align: center;
+        font-size:20px;
+        font-family: 'open sans', sans-serif;
+        padding-top: 15px;
+    }
+
+    .pixfort_app_3 .txt_awesome{text-align: center;
+        font-size:24px;
+        line-height: 150%;
+        font-style: italic;
+        color:#ffffff;
+        font-family: 'open sans', sans-serif;
+        text-align: center;
+        width: 64%;
+        margin-left: 18%;
+        padding: 10px 0px;
+    }
+
+   .pixfort_app_3 .via_st {text-align: center;
+    color:#eee;
+    font-size:14px;
+    font-family: 'open sans', sans-serif;
+    position: relative;
+    top: -5px;
+   }
+
+/*  Part 8:  #Contact     */
+
+     .pixfort_app_3 .download_style{background: url("../images/3_app/bg.png") #fff center fixed no-repeat;
+        	-webkit-background-size: cover;
+        	-moz-background-size: cover;
+        	-o-background-size: cover;
+        	background-size: cover;
+    		padding: 30px  0px;
+            text-align: center;
+    }
+
+    .pixfort_app_3 .h_download{color:#ffffff;
+        text-align: center;
+        font-size:26px;
+        font-family: 'open sans', sans-serif;
+        padding-top: 15px;
+    }
+
+    .pixfort_app_3 .txt_download{font-size: 16px;
+        line-height: 150%;
+        color:#ffffff;
+        font-family: 'open sans', sans-serif;
+        max-width: 40%;
+        margin-left: 30%;
+    }
+
+/*  Part 9:  #Footer      */
+
+    .pixfort_app_3 .foot_st{background: #F2F2F2;
+        text-align: center;
+    }
+
+
+
+   .pixfort_app_3 .rights_st{color:#a9a9a9;
+    font-size:14px;
+    font-family: 'open sans', sans-serif;
+    text-align: left;
+    padding-top: 25px;
+    position: relative;
+    display: inline-block;
+   }
+
+   .pixfort_app_3 .pixfort_st{color:#f68121;
+         font-weight: bold;
+         font-size:14px;
+         font-family: 'open sans', sans-serif;
+         text-align: left;
+         position: relative;
+         display: inline-block;
+   }
+
+   .pixfort_app_3 .likes_st{color:#a9a9a9;
+        font-size:14px;
+        font-family: 'open sans', sans-serif;
+
+        position: relative;
+        display: inline-block;
+        padding-top: 25px;
+        padding-right: 15px;
+        float: right;
+   }
+
+   .pixfort_app_3 .socbuttos{
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+
+        padding-bottom: 10px;
+        width: 100%;
+	}
+
+    .pixfort_app_3 .soc_icons{background: rgba(0,0,0,0.1);
+        border-radius: 3px;
+        //width:40%;
+        position: relative;
+        display:inline-block;
+
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+        float: right;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
