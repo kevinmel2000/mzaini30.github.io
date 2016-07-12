@@ -1,4 +1,5 @@
 blog = [
+    "Karena Hidup adalah Kumpulan Cerita, cerita.html",
     "Pentingnya Keterampilan, terampil.html",
     "Mencoba Fokus, fokus.html",
     "Menebar Kemanfaatan, manfaat.html",
