@@ -1,0 +1,4 @@
+#!/bin/bash
+find -name "*.html" -type f -exec sh -c 'cat "_atas" "$0" "_bawah" > "$0.trash"' {} \;
+rm *.html
+rename.ul .html.trash .html *.html.trash

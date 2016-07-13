@@ -1,2 +1,5 @@
 #!/bin/bash
-jade -HP jade/ -o .
+find md/ -name "*.md" -type f -exec sh -c 'markdown "$0" > "$0.html"' {} \;
+cd md
+rename.ul .md.html .html *.md.html
+mv *.html ..
