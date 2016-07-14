@@ -1,4 +1,7 @@
 blog = [
+    "I love Github, git.html",
+    "Organize Your Life!, organize.html",
+    "Hari Pertama Ni..., pertama.html",
     "Karena Hidup adalah Kumpulan Cerita, cerita.html",
     "Pentingnya Keterampilan, terampil.html",
     "Mencoba Fokus, fokus.html",
