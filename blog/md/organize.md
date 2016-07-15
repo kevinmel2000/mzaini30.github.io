@@ -10,4 +10,4 @@ Aturan mempertanyakan kesabaran dan kekuatan kita.
 
 Orang yang kuat bukanlah orang yang jago _gelut_. Tapi orang yang kuat adalah orang yang sanggup bersabar bahkan pada situasi-situasi sulit. Aturan mempertanyakan seberapa kuat kita memegang 'bara api' kesabaran tersebut.
 
-_Follow the rules_
+> Follow the rules

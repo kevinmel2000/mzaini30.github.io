@@ -1,3 +1,6 @@
+* {
+  word-wrap: break-word;
+}
 body {
   background: url("../gambar/latar.jpg") center center fixed;
   background-size: cover;
@@ -6,6 +9,12 @@ body {
   background: transparent;
   color: #fff;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+.jumbotron a {
+  color: inherit;
+}
+.jumbotron a:hover {
+  text-decoration: none;
 }
 .isi * {
   text-align: justify;

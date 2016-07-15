@@ -3,4 +3,8 @@ find md/ -name "*.md" -type f -exec sh -c 'markdown "$0" > "$0.html"' {} \;
 cd md
 rename.ul .md.html .html *.md.html
 mv *.html ..
-echo "lanjut ke ./run2"
+cd ..
+find -name "*.html" -type f -exec sh -c 'cat "_atas.htm" "$0" "_bawah.htm" > "$0.trash"' {} \;
+rm *.html
+rename.ul .html.trash .html *.html.trash
+echo "Happy Blogging :)"

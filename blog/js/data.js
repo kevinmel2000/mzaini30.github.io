@@ -1,4 +1,5 @@
 blog = [
+    "Takut Mencoba?, coba.html",
     "I love Github, git.html",
     "Organize Your Life!, organize.html",
     "Hari Pertama Ni..., pertama.html",
