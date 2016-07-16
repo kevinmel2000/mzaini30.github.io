@@ -1,16 +1,39 @@
 # BLOG
 
----
-
 Blog engine berbasis bash dan markdown.
+
+## Get Started
+
+1. Download source code di <http://github.com/mzaini30/mzaini30.github.io>
+2. Setelah didownload, buka folder `blog`
+3. Buka terminal lalu ketikkan `chmod -R 777 blog`
 
 ## Cara Menggunakan
 
 1. Buat postingan di folder `md` berformat markdown. Contoh: `halo.md`
 2. Modifikasi daftar postingan di file `js/data.js`
-3. Buka `_atas.htm` lalu edit angka pada bagian `<script src="js/data.js?892028"></script>`
+3. Buka `_atas.htm` lalu edit angka pada baris `ke-10`
 4. Jalankan terminal lalu ketikkan `./run`
 5. Happy Blogging :)
+
+## Fitur Search
+
+Karena sampai saat ini aku belum menemukan cara membuat pencarian di BLOG ini, maka digunakan cara manual yaitu:
+
+1. Buka Sublime Text
+2. Pilih `File > Open Folder...`
+3. Pilih folder BLOG ini
+4. Tekan `Ctrl + Shift + F`
+5. Masukkan kata yang mau dicari pada bagian `Find` dan masukkan `*.md` pada bagian `Where`
+
+## Terjemah
+
+Saya sangat berterima kasih kalau ada beberapa pihak yang menerjemahkan BLOG berbasis markdown dan bash ini, supaya dapat dirasakan manfaatnya oleh sahabat-sahabat kita di belahan bumi yang berbeda.
+
+## Catatan
+
+1. Jangan meletakkan file apapun berekstensi `html` di **root** karena akan terhapus
+2. Ekstensi dari `_atas` sama `_bawah` adalah `htm`
 
 ## Lisensi
 
@@ -18,9 +41,22 @@ Bebas menggunakan, mengedit, dan menyebarluaskan source code ini asalkan jangan 
 
 ## Credit
 
-Author: Muhammad Zaini .com\
-Website: muhammadzaini.com
+Author: Muhammad Zaini .com <br>
+Website: <http://muhammadzaini.com>
 
-## Catatan
+## Special Thanks To
 
-Ekstensi dari `_atas` sama `_bawah` adalah `htm`
+1. Allah _subhanahu wa taala_
+2. My Parents
+3. My Friends Forever
+4. Linux
+5. Linux Mint
+6. Bash
+7. Sublime Text
+8. Markdown
+9. Zen Coding
+10. Firefox
+11. Google
+12. Github
+13. Smartgit
+14. Twitter Bootstrap

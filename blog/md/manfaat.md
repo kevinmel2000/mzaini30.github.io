@@ -2,7 +2,7 @@
 
 _Minggu, 10 Juli 2016_
 
-Kita punya tangan. Kita punya kaki. Kita punya akal. Kita punya perasaan. Kita punya akal. Kita punya koneksi. Kita punya kepercayaan. Kita punya tanggung jawab. Kita punya keterampilan. Kita punya seni. Kita punya budaya. Kita punya peradaban.
+Kita punya tangan. Kita punya kaki. Kita punya akal. Kita punya perasaan. Kita punya koneksi. Kita punya kepercayaan. Kita punya tanggung jawab. Kita punya keterampilan. Kita punya seni. Kita punya budaya. Kita punya peradaban.
 
 Kita.
 

@@ -46,4 +46,4 @@ Teruslah bergerak. Latihlah bersabar dan tersenyum. Ingatlah kebesaran Allah dal
 
 ...di saat segelintir lainnya berusaha meredupkannya.
 
-Be yours.
+Be yours!

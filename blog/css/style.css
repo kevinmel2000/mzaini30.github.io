@@ -19,3 +19,11 @@ body {
 .isi * {
   text-align: justify;
 }
+.isi h1,
+.isi p:nth-child(2) em {
+  text-align: center;
+  display: block;
+}
+.isi p:nth-child(2) em {
+  margin-bottom: 25px;
+}

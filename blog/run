@@ -1,10 +1,34 @@
 #!/bin/bash
-find md/ -name "*.md" -type f -exec sh -c 'markdown "$0" > "$0.html"' {} \;
+
+clear
+echo "Tunggu sebentar ya..."
+
+# deklarasi lokasi folder
+DIR="$(dirname "$(readlink -f "$0")")"
+
+# hapus semua file html
+rm *.html
+
+# masuk ke dalam folder md
 cd md
+find . -name "*.md" -type f -exec sh -c 'markdown "$0" > "$0.html"' {} \;
 rename.ul .md.html .html *.md.html
 mv *.html ..
+
+# kembali ke root
 cd ..
 find -name "*.html" -type f -exec sh -c 'cat "_atas.htm" "$0" "_bawah.htm" > "$0.trash"' {} \;
 rm *.html
 rename.ul .html.trash .html *.html.trash
+
+# proses file README
+markdown README.md > README.html
+cat "_atas.htm" "README.html" "_bawah.htm" > "README.html.trash"
+rm README.html
+rename.ul "README.html.trash" "README.html" "README.html.trash"
+
+echo "----------------------"
 echo "Happy Blogging :)"
+echo ""
+echo "file://""$DIR""/index.html"
+echo "~ tekan Ctrl + klik ~"

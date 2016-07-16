@@ -1,4 +1,8 @@
 blog = [
+    "Kamu,&nbsp;Bertanggung Jawab Atas Dirimu Sendiri, tanggungjawab.html",
+    "Saat Kita Kaya, kaya.html",
+    "Ingin Didengar?, dengar.html",
+    "Jangan (hanya) Mengeluh, mengeluh.html",
     "Takut Mencoba?, coba.html",
     "I love Github, git.html",
     "Organize Your Life!, organize.html",

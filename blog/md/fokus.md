@@ -8,6 +8,6 @@ Idealnya tu ya, satu waktu itu hanya diisi dengan satu pekerjaan, nggak langsung
 * Pekerjaan yang kita lakukan nggak bisa maksimal karena fokus kita terbagi. Misalnya aja padahal khotib lagi nyampein suatu hikmah yang membuat hati kita tersentuh tapi kita malah ketawa-ketawa aja karena sambil baca komiknya si Juki.
 * Rawan kesalahan. Misalnya aja sambil motong kayu besar menggunakan alat-alat berat tapi kita sambil joget-jogetan.
 
-Ngeri banget ya akibatnya.
+Ngeri banget ya akibatnya...
 
 Nah, mendingan kita fokus aja dalam mengerjakan satu pekerjaan.
