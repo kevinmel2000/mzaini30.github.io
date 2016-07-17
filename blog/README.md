@@ -1,6 +1,10 @@
 # BLOG
 
-Blog engine berbasis bash dan markdown.
+_Blog engine berbasis bash dan markdown._
+
+## Persiapan
+
+Pastikan kamu sudah punya markdown di sistem kamu. Kalau belum punya, download melalui package manager dengan kata kunci markdown atau melalui terminal `sudo apt-get install markdown`
 
 ## Get Started
 

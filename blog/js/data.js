@@ -19,5 +19,18 @@ blog = [
     "Karena Hidup Bukan Sekedar Menulis, tulisan.html",
     "Penghujung Ramadan yang Amat Berkesan, penghujung.html",
     "Mengapa Aku Memilih Statis Page Buat Blogging?, mengapa.html",
-    "Hello World, hello.html"
+    "Hello World, hello.html",
+
+    // catatan di isykarima
+    "20/80, 2080.html",
+    "Nama Kirito, kirito.html",
+    "Trik Long March, triklongmarch.html",
+    "Episode SAO, sao.html",
+    "Harus Lebih Baik, baik.html",
+    "Listrik Mati, mati.html",
+    "Dewasa dan Keuangan, keuangan.html",
+    "Harus Shaf Awal!, awal.html",
+    "Dunia Khayalan, khayal.html",
+    "Novel Memang Selalu Menarik, novel.html",
+    "Life in Isykarima, lifeisyka.html"
 ]

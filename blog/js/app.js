@@ -17,7 +17,16 @@ baru = function(x) {
     document.writeln("<a href='" + arraybaru[x][1] + "' class='list-group-item'>" + arraybaru[x][0] + "</a>")
 }
 
-// acak
+// acak - diacak 10 kali biar bener-bener ngacak
+random(arrayacak)
+random(arrayacak)
+random(arrayacak)
+random(arrayacak)
+random(arrayacak)
+random(arrayacak)
+random(arrayacak)
+random(arrayacak)
+random(arrayacak)
 random(arrayacak)
 for (nama in arrayacak) {
     arrayacak[nama] = arrayacak[nama].split(", ")
