@@ -1,4 +1,5 @@
 blog = [
+    "Manusia Itu Harus Bergerak, gerak.html",
     "Jangan Malas!, malas.html",
     "Menjalani Kehidupan dengan Fokus, jalan.html",
     "Makan Dikit, makan.html",

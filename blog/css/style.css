@@ -2,13 +2,15 @@
   word-wrap: break-word;
 }
 body {
-  background: url("../gambar/latar.jpg") center center fixed;
-  background-size: cover;
+  background: url("../gambar/latar blogspot/anjing.png");
 }
 .jumbotron {
   background: transparent;
-  color: #fff;
-  font-family: Georgia, "Times New Roman", Times, serif;
+/*   color: #fff; */
+/*   font-family: Georgia, "Times New Roman", Times, serif; */
+}
+.jumbotron h1 {
+  font-weight: bold;
 }
 .jumbotron a {
   color: inherit;

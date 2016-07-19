@@ -5,25 +5,40 @@ echo "Tunggu sebentar ya..."
 
 # deklarasi lokasi folder
 DIR="$(dirname "$(readlink -f "$0")")"
+# DIR="/home/mzaini30/Dokumen/git/mzaini30.github.io/blog"
+ACAK="$(shuf -i1-99999999 -n1)"
+# ACAK=$(($RANDOM % 9999999999))
 
-# hapus semua file html
-rm *.html
+# masuk ke DIR
+cd "$DIR"
+
+# membuat file data random
+cd html
+echo "<script src=\"js/data.js?""$ACAK""\"></script>" > _data.htm
+cd ..
 
 # masuk ke dalam folder md
 cd md
-find . -name "*.md" -type f -exec sh -c 'markdown "$0" > "$0.html"' {} \;
-rename.ul .md.html .html *.md.html
-mv *.html ..
+find . -name "*.md" -type f -mtime -1 -exec sh -c 'markdown "$0" > "$0.html"' {} \;
+mv *.md.html ../html
 
-# kembali ke root
+# masuk ke folder html
+cd ../html
+cp _atas1.htm ..
+cp _data.htm ..
+cp _atas2.htm ..
+cp _bawah.htm ..
+rename.ul .md.html .html *.md.html
+find -name "*.html" -type f -exec sh -c 'cat "_atas1.htm" "_data.htm" "_atas2.htm" "$0" "_bawah.htm" > "$0.trash"' {} \;
+
+# pindah .html.trash ke luar
+mv *.html.trash ..
 cd ..
-find -name "*.html" -type f -exec sh -c 'cat "_atas.htm" "$0" "_bawah.htm" > "$0.trash"' {} \;
-rm *.html
 rename.ul .html.trash .html *.html.trash
 
-# proses file README
+# proses file README, keluar dulu ke root
 markdown README.md > README.html
-cat "_atas.htm" "README.html" "_bawah.htm" > "README.html.trash"
+cat "_atas1.htm" "_data.htm" "_atas2.htm" "README.html" "_bawah.htm" > "README.html.trash"
 rm README.html
 rename.ul "README.html.trash" "README.html" "README.html.trash"
 

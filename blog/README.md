@@ -16,9 +16,8 @@ Pastikan kamu sudah punya markdown di sistem kamu. Kalau belum punya, download m
 
 1. Buat postingan di folder `md` berformat markdown. Contoh: `halo.md`
 2. Modifikasi daftar postingan di file `js/data.js`
-3. Buka `_atas.htm` lalu edit angka pada baris `ke-10`
-4. Jalankan terminal lalu ketikkan `./run`
-5. Happy Blogging :)
+3. Jalankan terminal lalu ketikkan `./run`
+4. Happy Blogging :)
 
 ## Fitur Search
 
@@ -36,8 +35,8 @@ Saya sangat berterima kasih kalau ada beberapa pihak yang menerjemahkan BLOG ber
 
 ## Catatan
 
-1. Jangan meletakkan file apapun berekstensi `html` di **root** karena akan terhapus
-2. Ekstensi dari `_atas` sama `_bawah` adalah `htm`
+1. Postingan yang dicompile ketika mengetik `./run` adalah postingan hari ini dengan kemarin. Kalau ingin semua postingan dari awal sampai yang terbaru dicompile, buka `run` lalu hapus `-mtime -1` di dalamnya
+2. Ekstensi dari `_atas1`, `_atas2`, `_data` sama `_bawah` adalah `htm`
 
 ## Lisensi
 
@@ -64,3 +63,4 @@ Website: <http://muhammadzaini.com>
 12. Github
 13. Smartgit
 14. Twitter Bootstrap
+15. Blogspot
