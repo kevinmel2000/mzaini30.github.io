@@ -1,4 +1,5 @@
 blog = [
+    "Buku Begitu Istimewa, buku.html",
     "Karena Kita Sudah Bukan Anak-anak Lagi, karena.html",
     "Bersih Itu Indah, indah.html",
     "Manusia Itu Harus Bergerak, gerak.html",
