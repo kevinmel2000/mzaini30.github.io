@@ -1,4 +1,6 @@
 blog = [
+    "Karena Kita Sudah Bukan Anak-anak Lagi, karena.html",
+    "Bersih Itu Indah, indah.html",
     "Manusia Itu Harus Bergerak, gerak.html",
     "Jangan Malas!, malas.html",
     "Menjalani Kehidupan dengan Fokus, jalan.html",
@@ -27,6 +29,9 @@ blog = [
 
     // catatan di isykarima
     "20/80, 2080.html",
+    "Kesatria, kesatria.html",
+    "My Words, word.html",
+    "Penulis Sesungguhnya, sungguh.html",
     "Nama Kirito, kirito.html",
     "Trik Long March, triklongmarch.html",
     "Episode SAO, sao.html",
