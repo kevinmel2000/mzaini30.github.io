@@ -1,4 +1,7 @@
 blog = [
+    "Nggak Akan Belanja Lagi!, belanja.html",
+    "Zero Mistake!, mis.html",
+    "Beasiswa, bea.html",
     "Ketika Dunia Menyapamu, dunia.html",
     "Buku Begitu Istimewa, buku.html",
     "Karena Kita Sudah Bukan Anak-anak Lagi, karena.html",
