@@ -35,3 +35,5 @@ _Kamis, 21 Juli 2016_
 ## Semester 3
 
 1. [UKT](gambar/unmul semester 3/ukt.jpg)
+1. [KRS](gambar/unmul semester 3/krs 3.pdf)
+1. [Sireg](gambar/unmul semester 3/sireg 3.pdf)
