@@ -1,3 +1,0 @@
-blog = [
-    "Unmul, unmul.html"
-]
