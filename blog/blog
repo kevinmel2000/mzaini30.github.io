@@ -13,8 +13,10 @@ ACAK="$(shuf -i1-99999999 -n1)"
 cd "$DIR"
 
 # membuat file data random
-cd html
-echo "<script src=\"js/data.js?""$ACAK""\"></script>" > _data.htm
+# cd html
+cd js
+# echo "<script src=\"js/data.js?""$ACAK""\"></script>" > _data.htm
+echo "iddata = $ACAK" > var.js
 cd ..
 
 # masuk ke dalam folder md
@@ -24,23 +26,13 @@ mv *.md.html ../html
 
 # masuk ke folder html
 cd ../html
-cp _atas1.htm ..
-cp _data.htm ..
-cp _atas2.htm ..
-cp _bawah.htm ..
 rename.ul .md.html .html *.md.html
-find -name "*.html" -type f -exec sh -c 'cat "_atas1.htm" "_data.htm" "_atas2.htm" "$0" "_bawah.htm" > "$0.trash"' {} \;
+find -name "*.html" -type f -mtime -1 -exec sh -c 'cat "_atas.htm" "$0" "_bawah.htm" > "$0.trash"' {} \;
 
 # pindah .html.trash ke luar
 mv *.html.trash ..
 cd ..
 rename.ul .html.trash .html *.html.trash
-
-# proses file README, keluar dulu ke root
-markdown README.md > README.html
-cat "_atas1.htm" "_data.htm" "_atas2.htm" "README.html" "_bawah.htm" > "README.html.trash"
-rm README.html
-rename.ul "README.html.trash" "README.html" "README.html.trash"
 
 echo "----------------------"
 echo "Happy Blogging :)"
