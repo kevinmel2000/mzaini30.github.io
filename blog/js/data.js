@@ -1,4 +1,5 @@
 blog = [
+    "Berapa Banyak Waktu Terbuang?, waktu.html",
     "Mulai Nggak Fokus, fokus2.html",
     "Nggak Akan Belanja Lagi!, belanja.html",
     "Zero Mistake!, mis.html",
