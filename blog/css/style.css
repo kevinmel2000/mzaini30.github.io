@@ -29,3 +29,6 @@ body {
 .isi p:nth-child(2) em {
   margin-bottom: 25px;
 }
+.isi blockquote p:nth-child(2) em {
+  display: initial;
+}

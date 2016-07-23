@@ -1,4 +1,5 @@
 blog = [
+    "Waktunya Beraksi, aksi.html",
     "Semua Serba Cepat. Jangan Mau Ketinggalan!, cepat.html",
     "Berapa Banyak Waktu Terbuang?, waktu.html",
     "Mulai Nggak Fokus, fokus2.html",
