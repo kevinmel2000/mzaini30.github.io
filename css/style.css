@@ -1,0 +1,11 @@
+.judul {
+  background: url("../blog/gambar/latar blogspot/awan.png") fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.judul h1 {
+  font-weight: bold;
+}
+.media-sosial a {
+  margin: 10px;
+}
