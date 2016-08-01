@@ -1,11 +1,9 @@
-.judul {
-  background: url("../blog/gambar/latar blogspot/awan.png") fixed;
-  padding-top: 100px;
-  padding-bottom: 100px;
+* {
+  word-wrap: break-word;
 }
-.judul h1 {
-  font-weight: bold;
+.jumbotron {
+  margin-bottom: 0;
 }
-.media-sosial a {
-  margin: 10px;
+.gambar-tengah {
+  padding: 10%;
 }
