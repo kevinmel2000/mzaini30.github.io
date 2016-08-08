@@ -21,7 +21,7 @@
                     <div class="vertical">
                         <h1>Muhammad Zaini</h1>
                         <p>A Psychology Student at the Mulawarman University of Samarinda and Mahad Hasan bin Ali Samarinda.</p>
-                        <p><a class="btn btn-danger btn-lg" href="http://medium.com/@mzaini30" target="_blank" role="button"><span class="fa fa-medium"></span>&nbsp;&nbsp;Visit Blog</a></p>
+                        <!-- <p><a class="btn btn-danger btn-lg" href="http://medium.com/@mzaini30" target="_blank" role="button"><span class="fa fa-medium"></span>&nbsp;&nbsp;Visit Blog</a></p> -->
                     </div>
                 </div>
             </div>
@@ -47,31 +47,33 @@
                     <a href="http://line.me/ti/p/~mzaini30" target="_blank" class="list-group-item"><span class="fa fa-whatsapp"></span>&nbsp;&nbsp;&nbsp;Line</a>
                 </div>
             </div>
-            <script src="js/jquery.min.js"></script>
-            <script>
-            $(function() {
-                fungsijarak = function() {
-                    jarak = ($(".jumbotron").height() - $(".vertical").height()) / 2
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(function() {
+        fungsijarak = function() {
+            jarak = ($(".jumbotron").height() - $(".vertical").height()) / 2
 
-                    // 768
+            // 768
 
-                    if ($(window).width() > 768) {
-                        $(".vertical").css({
-                            "margin-top": jarak
-                        })
-                    } else {
-                        $(".vertical").css({
-                            "margin-top": "30px"
-                        })
-                    }
-
-                }
-                fungsijarak()
-                $(window).resize(function() {
-                    fungsijarak()
+            if ($(window).width() > 768) {
+                $(".vertical").css({
+                    "margin-top": jarak
                 })
-            })
-            </script>
+            } else {
+                $(".vertical").css({
+                    "margin-top": "30px"
+                })
+            }
+
+        }
+        fungsijarak()
+        $(window).resize(function() {
+            fungsijarak()
+        })
+    })
+    </script>
 </body>
 
 </html>
