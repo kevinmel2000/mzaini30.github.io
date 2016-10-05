@@ -4,10 +4,10 @@
     <title>Your awesome title</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>https://ferrolho.github.io/jekyll-theme-libretto/</link>
-    <atom:link href="https://ferrolho.github.io/jekyll-theme-libretto/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Oct 2016 07:09:23 +0800</pubDate>
-    <lastBuildDate>Thu, 06 Oct 2016 07:09:23 +0800</lastBuildDate>
+    <link>https://ferrolho.github.io/</link>
+    <atom:link href="https://ferrolho.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 06 Oct 2016 07:20:47 +0800</pubDate>
+    <lastBuildDate>Thu, 06 Oct 2016 07:20:47 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Thu, 01 Sep 2016 18:11:11 +0800</pubDate>
-        <link>https://ferrolho.github.io/jekyll-theme-libretto/2016/09/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://ferrolho.github.io/jekyll-theme-libretto/2016/09/01/welcome-to-jekyll.html</guid>
+        <link>https://ferrolho.github.io/2016/09/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://ferrolho.github.io/2016/09/01/welcome-to-jekyll.html</guid>
         
         
       </item>
@@ -45,7 +45,7 @@
 &lt;p&gt;Chicken biltong ribeye, pig cupim filet mignon sausage.&lt;/p&gt;
 
 &lt;figure&gt;
-	&lt;img src=&quot;/jekyll-theme-libretto/assets/earth.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;/assets/earth.jpg&quot; alt=&quot;image&quot; /&gt;
 	&lt;figcaption&gt;
 		There is nothing on this earth more to be prized than true friendship.
 	&lt;/figcaption&gt;
@@ -54,8 +54,8 @@
 &lt;p&gt;Swine brisket tongue pork cow pork loin beef ribs turkey flank rump strip steak.&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Aug 2016 18:11:11 +0800</pubDate>
-        <link>https://ferrolho.github.io/jekyll-theme-libretto/2016/08/20/bacon-ipsum.html</link>
-        <guid isPermaLink="true">https://ferrolho.github.io/jekyll-theme-libretto/2016/08/20/bacon-ipsum.html</guid>
+        <link>https://ferrolho.github.io/2016/08/20/bacon-ipsum.html</link>
+        <guid isPermaLink="true">https://ferrolho.github.io/2016/08/20/bacon-ipsum.html</guid>
         
         
       </item>
