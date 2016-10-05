@@ -1,93 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Muhammad Zaini</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+<div class="home">
 
-<body>
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="gambar/doodle face.jpg" class="img-circle img-responsive gambar-tengah" alt="">
-                </div>
-                <div class="col-sm-6">
-                    <div class="vertical">
-                        <h1>Muhammad Zaini</h1>
-                        <p>A Psychology Student at the Mulawarman University of Samarinda and Mahad Hasan bin Ali Samarinda.</p>
-                        <p>Yoroshiku!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <br>
-        <!-- facebook, twitter, line -->
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="list-group">
-                    <a href="http://facebook.com/mzaini30" target="_blank" class="list-group-item"><span class="fa fa-facebook-square"></span>&nbsp;&nbsp;&nbsp;Facebook</a>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="list-group">
-                    <a href="http://twitter.com/mzaini30" target="_blank" class="list-group-item"><span class="fa fa-twitter"></span>&nbsp;&nbsp;&nbsp;Twitter</a>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="list-group">
-                    <a href="http://line.me/ti/p/~mzaini30" target="_blank" class="list-group-item"><span class="fa fa-commenting"></span>&nbsp;&nbsp;&nbsp;LINE</a>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="list-group">
-                    <a href="http://github.com/mzaini30" target="_blank" class="list-group-item"><span class="fa fa-github"></span>&nbsp;&nbsp;&nbsp;GitHub</a>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="list-group">
-                    <a href="http://facebook.com/arsitekandroid" target="_blank" class="list-group-item"><span class="fa fa-android"></span>&nbsp;&nbsp;&nbsp;Play Store</a>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="list-group">
-                    <a href="mailto:muhzaini30@gmail.com" target="_blank" class="list-group-item"><span class="fa fa-envelope"></span>&nbsp;&nbsp;&nbsp;Email</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="js/jquery.min.js"></script>
-    <script>
-    $(function() {
-        fungsijarak = function() {
-            jarak = ($(".jumbotron").height() - $(".vertical").height()) / 2
+	<ul class="post-list">
+		{% for post in site.posts %}
+		<li>
+			<article>
+				<header class="post-header">
+					<div>
+						<span>Posted on </span><span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+					</div>
 
-            // 768
+					<h2>
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					</h2>
+				</header>
 
-            if ($(window).width() > 768) {
-                $(".vertical").css({
-                    "margin-top": jarak
-                })
-            } else {
-                $(".vertical").css({
-                    "margin-top": "30px"
-                })
-            }
+				<div class="entry-content">
+					{{ post.content }}
+				</div>
+			</article>
+		</li>
+		{% endfor %}
+	</ul>
 
-        }
-        fungsijarak()
-        $(window).resize(function() {
-            fungsijarak()
-        })
-    })
-    </script>
-</body>
+	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</html>
+</div>
