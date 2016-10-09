@@ -64,3 +64,5 @@ Jaringan sklerenkim juga termasuk tipe jaringan permanen sederhana. Ada dua tipe
 	* RNA
 		* RNA duta
 		* RNA transpor
+
+Sumber: <https://id.wikipedia.org/wiki/Sel_tumbuhan>
