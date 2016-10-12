@@ -3,7 +3,6 @@ layout: post
 title: Bisakah Kita Berubah?
 date: 2016-10-08 20:07:48 +0800
 category: psikologi populer
-comments: true
 ---
 
 Bisakah kita berubah? Jawabannya adalah IYA, PASTI BISA!

@@ -37,9 +37,17 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+    <div class="kontak">
+    <br>
+    <h6>Say Hello:</h6>
+	Facebook: <a href="http://facebook.com/mzaini30">/mzaini30</a> /
+	Twitter: <a href="http://twitter.com/mzaini30">@mzaini30</a> /
+	LINE: <a href="http://line.me/ti/p/~mzaini30">mzaini30</a> /
+	Telegram: <a href="http://telegram.me/mzaini30">@mzaini30</a> /
+	Email: <a href="mailto:muhzaini30@gmail.com">muhzaini30@gmail.com</a>
+    </div>
   </article>
 </div>
-
 <div class="share-buttons">
   <h6>Share on: </h6>
   <ul>
@@ -61,7 +69,7 @@ layout: default
   </ul>
 </div><!-- end share-buttons -->
 
-{% if site.owner.disqus-shortname and page.comments == true %}
+{% if site.owner.disqus-shortname %}
 <div id="disqus_thread"></div>
 {% include disqus.html %}
 {% endif %}
