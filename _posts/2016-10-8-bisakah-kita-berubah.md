@@ -5,6 +5,8 @@ date: 2016-10-08 20:07:48 +0800
 category: psikologi populer
 ---
 
+![]({{site.url}}/gambar/we.jpg)
+
 Bisakah kita berubah? Jawabannya adalah IYA, PASTI BISA!
 
 Mengapa?

@@ -5,6 +5,8 @@ date: 2016-10-16 11:34:59 +0800
 category: psikologi sosial-kognitif
 ---
 
+![]({{site.url}}/gambar/personality1.jpg)
+
 Konsep _transference_ erat hubungannya dengan teori psikoanalisis Freud, di mana pasien memindahkan perasaan, ingatan, dan ketakutan dari hubungan masa lalu pada terapis. Tetapi, istilah tersebut secara umum merujuk pada fenomena di mana aspek dari hubungan interpersonal di masa lalu yang signifikan mempengaruhi interaksinya sekarang pada orang lain. Dalam kasus psikoanalisis, terapis menjadi representasi dari ayah atau ibu (atau figur signifikan lainnya) bagi pasien, dan terapis menjadi target konflik psikoseksual pasien yang tidak terselesaikan dan tidak disadari dari hubungan sebelumnya itu.
 
 <!-- more -->

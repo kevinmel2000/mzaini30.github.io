@@ -9,9 +9,9 @@ Kenal dengan Linux Mint?
 
 Itu tuh, salah satu distro Linux yang saat ini sedang ramai karena kemudahan yang ditawarkan dan desain yang elegan. Berikut ini adalah contoh tampilan Linux Mint:
 
-<!-- more -->
-
 ![]({{site.url}}/gambar/linux.png)
+
+<!-- more -->
 
 Bagus ya, desainnya?
 
