@@ -1,4 +1,9 @@
 // Post listing
+.row .col.s12.m9.konten {
+  @include media-query($medium-screen) {
+    margin-left: 25%;
+  }
+}
 .post-listing {
   background-color: $white;
   position: absolute;
@@ -13,7 +18,7 @@
   }
   @include media-query($medium-screen) {
     height: 100vh;
-    overflow-y: scroll;
+    zzzoverflow-y: scroll;
     position: initial;
     top: 0;
   }
