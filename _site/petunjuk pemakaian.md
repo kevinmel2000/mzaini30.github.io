@@ -10,4 +10,4 @@ Ketikkan perintah ini di root
 
 # Memasukkan Gambar
 
-	{{ site.baseurl }}/gambar/ini-gambarnya.jpg
+	{{ site.url }}/gambar/ini-gambarnya.jpg

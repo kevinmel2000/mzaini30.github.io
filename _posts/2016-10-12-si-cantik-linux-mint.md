@@ -11,7 +11,7 @@ Itu tuh, salah satu distro Linux yang saat ini sedang ramai karena kemudahan yan
 
 <!-- more -->
 
-![]({{site.baseurl}}/gambar/linux.png)
+![]({{site.url}}/gambar/linux.png)
 
 Bagus ya, desainnya?
 
