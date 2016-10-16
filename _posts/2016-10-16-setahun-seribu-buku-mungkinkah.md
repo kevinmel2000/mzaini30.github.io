@@ -37,7 +37,7 @@ So, semua keseruan ini takkan kamu dapat kalau kamu tak mulai membacanya mulai s
 
 Dalam 24 jam kehidupan kita setiap harinya, pasti ada waktu-waktu yang kita tak melakukan apapun. Tugas kuliah sudah dikerjakan, rumah sudah rapi, masak-masak sudah (bukan masak mi lo ya...), ngepel-ngepel lantai udah (buset, ni udah kayak kerjaan emak-emak ja. Eh, tapi cowok jangan kalah lo). Nah, terus mau ngapain lagi dah? Paling larinya kalau nggak ke gadget, main game, browsingan, atau facebookan, atau larinya ke tipi.
 
-So, nggak bisa kah kita isi denga lebih bermakna lagi?
+So, nggak bisa kah kita isi dengan lebih bermakna lagi?
 
 Coba deh, kalau ada waktu kosong, kita isi dengan membaca buku, membaca Quran, atau menghapal Quran. Itu pasti lebih bermakna. Daripada nonton tipi, paling yang ditonton ya kalau nggak Kanjeng Dimas, kopi Sianida. Facebookan yo beritanya itu-itu aja. Ahok lagi. Kayak nggak ada artis lain aja. Hahahahaha
 
