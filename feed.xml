@@ -16,8 +16,7 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}
 			&lt;div class="kontak"&gt;
-		    &lt;br&gt;
-		    &lt;h6&gt;Say Hello:&lt;/h6&gt;
+		    &lt;h2&gt;Say Hello:&lt;/h2&gt;
 			&lt;p&gt;Facebook: &lt;a href="http://facebook.com/mzaini30"&gt;/mzaini30&lt;/a&gt; / Twitter: &lt;a href="http://twitter.com/mzaini30"&gt;@mzaini30&lt;/a&gt; / LINE: &lt;a href="http://line.me/ti/p/~mzaini30"&gt;mzaini30&lt;/a&gt; / Telegram: &lt;a href="http://telegram.me/mzaini30"&gt;@mzaini30&lt;/a&gt; / Email: &lt;a href="mailto:muhzaini30@gmail.com"&gt;muhzaini30@gmail.com&lt;/a&gt;&lt;/p&gt;
 		    &lt;/div&gt;
         </description>
