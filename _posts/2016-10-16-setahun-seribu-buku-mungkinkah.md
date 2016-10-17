@@ -41,6 +41,6 @@ So, nggak bisa kah kita isi dengan lebih bermakna lagi?
 
 Coba deh, kalau ada waktu kosong, kita isi dengan membaca buku, membaca Quran, atau menghapal Quran. Itu pasti lebih bermakna. Daripada nonton tipi, paling yang ditonton ya kalau nggak Kanjeng Dimas, kopi Sianida. Facebookan yo beritanya itu-itu aja. Ahok lagi. Kayak nggak ada artis lain aja. Hahahahaha
 
-[Baca Juga: Bisakah Kita Berubah?]({{site.url}}/2016/10/08/bisakah-kita-berubah)
+[Baca Juga: Bisakah Kita Berubah?]({{ site.url }}/2016/10/08/bisakah-kita-berubah)
 
 Kamu tau, membaca buku itu seru banget lo...
