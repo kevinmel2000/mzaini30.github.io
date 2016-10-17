@@ -5,7 +5,7 @@ date: 2016-10-16 15:40:30 +0800
 category: coba pikirkan
 ---
 
-![]({{site.url}}/gambar/buku.jpg)
+![]({{ site.url }}/gambar/buku.jpg)
 
 Setiap dari kita pasti punya tujuan-tujuan luar biasa yang ingin kita wujudkan. Ada yang ingin selfie di tempat tertinggi, ada yang ingin terbang di angkasa, ada yang ingin menghapalkan Quran. Nah, salah satu dari tujuan-tujuan luar biasa itu adalah membaca seribu buku dalam setahun. Mungkinkah?
 

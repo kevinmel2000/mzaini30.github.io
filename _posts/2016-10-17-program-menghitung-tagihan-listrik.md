@@ -43,4 +43,4 @@ if tegangan == 450 or tegangan == 900 or tegangan == 1200 and nama is not None a
 
 <!-- more -->
 
-![]({{site.url}}/gambar/koding.jpg)
+![]({{ site.url }}/gambar/koding.jpg)
