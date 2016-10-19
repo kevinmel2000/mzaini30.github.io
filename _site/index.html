@@ -135,6 +135,147 @@
   <header class="post-header">
     <p class="post-meta">
       <span class="post-date">
+        19 OCT 2016
+      </span>
+      
+      •
+      
+        <a class="post-cat" href="/categories/#project euler">project euler</a>
+        
+      
+      
+    </p>
+    <h4>
+      <a href="/2016/10/19/project-euler-problem-10" class="post-title" title="Project Euler Problem 10">Project Euler Problem 10</a>
+      
+    </h4>
+
+    
+
+    </header>
+
+    
+    <div class="post-description">
+      <p>
+        
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">hi</span> <span class="o">=</span> <span class="mi">2000000</span>
+
+<span class="n">numbers</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">xrange</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">hi</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+
+<span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="n">hi</span> <span class="o">**</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+	<span class="k">if</span> <span class="n">number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+		<span class="k">continue</span>
+
+	<span class="n">num</span> <span class="o">=</span> <span class="n">number</span>
+	<span class="k">while</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="n">hi</span><span class="p">:</span>
+		<span class="n">num</span> <span class="o">+=</span> <span class="n">number</span>
+		<span class="k">if</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+			<span class="n">numbers</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="mi">2</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span></code></pre></figure>
+
+
+      </p>
+      <a href="/2016/10/19/project-euler-problem-10" class="" title="Project Euler Problem 10">Lanjutkan Membaca</a>
+    </div>
+    
+
+    
+
+</section>
+
+<section class="post">
+  <header class="post-header">
+    <p class="post-meta">
+      <span class="post-date">
+        19 OCT 2016
+      </span>
+      
+      •
+      
+        <a class="post-cat" href="/categories/#project euler">project euler</a>
+        
+      
+      
+    </p>
+    <h4>
+      <a href="/2016/10/19/project-euler-problem-3" class="post-title" title="Project Euler Problem 3">Project Euler Problem 3</a>
+      
+    </h4>
+
+    
+
+    </header>
+
+    
+    <div class="post-description">
+      <p>
+        
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">n</span> <span class="o">=</span> <span class="mi">600851475143</span>
+<span class="n">i</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="k">while</span> <span class="n">i</span> <span class="o">*</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">:</span>
+	<span class="k">while</span> <span class="n">n</span> <span class="o">%</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+		<span class="n">n</span> <span class="o">/=</span> <span class="n">i</span>
+	<span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">print</span> <span class="n">n</span></code></pre></figure>
+
+
+      </p>
+      <a href="/2016/10/19/project-euler-problem-3" class="" title="Project Euler Problem 3">Lanjutkan Membaca</a>
+    </div>
+    
+
+    
+
+</section>
+
+<section class="post">
+  <header class="post-header">
+    <p class="post-meta">
+      <span class="post-date">
+        19 OCT 2016
+      </span>
+      
+      •
+      
+        <a class="post-cat" href="/categories/#project euler">project euler</a>
+        
+      
+      
+    </p>
+    <h4>
+      <a href="/2016/10/19/project-euler-problem-1" class="post-title" title="Project Euler Problem 1">Project Euler Problem 1</a>
+      
+    </h4>
+
+    
+
+    </header>
+
+    
+    <div class="post-description">
+      <p>
+        
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">angka</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+	<span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+		<span class="n">angka</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">sum</span><span class="p">(</span><span class="n">angka</span><span class="p">)</span></code></pre></figure>
+
+
+      </p>
+      <a href="/2016/10/19/project-euler-problem-1" class="" title="Project Euler Problem 1">Lanjutkan Membaca</a>
+    </div>
+    
+
+    
+
+</section>
+
+<section class="post">
+  <header class="post-header">
+    <p class="post-meta">
+      <span class="post-date">
         17 OCT 2016
       </span>
       
