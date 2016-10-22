@@ -5,8 +5,16 @@
 #
 title: Muhammad Zaini
 email: muhzaini30@gmail.com
-description: Sekedar catatan
-# url:  # the base hostname & protocol for your site
+description: Jangan remehkan tulisan karena bisa mengubah pandangan orang tentang hidup, masa depan, harapan, dan cinta
+url:  # the base hostname & protocol for your site
+gambar: default.jpg
+twitter_username: mzaini30
+
+gems: [jekyll-paginate]
+exclude: ["Gemfile"]
+# paginate ambil dari trophy
+paginate: 10
+paginate_path: "/halaman/:num/"
 
 
 #

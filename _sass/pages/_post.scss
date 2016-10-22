@@ -24,6 +24,28 @@
   }
 }
 
+.pagination {
+  width: 100%;
+  a {
+    width: 50%;
+    display: block;
+    text-align: center;
+  }
+  .page-prev {
+    float: left;
+    color: #8d7edc;
+  }
+  .page-next {
+    float: right;
+    color: #F5A623;
+  }
+}
+.jarak {
+  clear: both;
+  width: 100%;
+  height: 40px;
+}
+
 .image-credit {
   float: right;
   font-weight: bold;

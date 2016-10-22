@@ -3,6 +3,7 @@ layout: post
 title: Project Euler Problem 3
 date: 2016-10-19 09:07:19 +0800
 category: project euler
+gambar: euler 3.jpg
 ---
 
 {% highlight python %}

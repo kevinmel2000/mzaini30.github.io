@@ -3,6 +3,7 @@ layout: post
 title: Program Menghitung Tagihan Listrik
 date: 2016-10-17 12:29:55 +0800
 category: python
+gambar: koding.jpg
 ---
 
 {% highlight python %}

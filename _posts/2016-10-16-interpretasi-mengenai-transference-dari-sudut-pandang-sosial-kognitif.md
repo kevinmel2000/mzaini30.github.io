@@ -3,6 +3,7 @@ layout: post
 title: Interpretasi mengenai Transference dari Sudut Pandang Sosial-Kognitif
 date: 2016-10-16 11:34:59 +0800
 category: psikologi sosial-kognitif
+gambar: personality1.jpg
 ---
 
 ![]({{ site.url }}/gambar/personality1.jpg)

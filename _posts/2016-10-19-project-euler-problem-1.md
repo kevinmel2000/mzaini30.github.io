@@ -3,6 +3,7 @@ layout: post
 title: Project Euler Problem 1
 date: 2016-10-19 09:03:53 +0800
 category: project euler
+gambar: euler 1.jpg
 ---
 
 

@@ -3,6 +3,7 @@ layout: post
 title: Setahun Seribu Buku. Mungkinkah?
 date: 2016-10-16 15:40:30 +0800
 category: coba pikirkan
+gambar: buku.jpg
 ---
 
 ![]({{ site.url }}/gambar/buku.jpg)

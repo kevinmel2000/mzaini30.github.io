@@ -3,6 +3,7 @@ layout: post
 title: Nyalakanlah Lilin Kecil
 date: 2016-10-22 08:07:00 +0800
 category: coba pikirkan
+gambar: lilin.jpg
 ---
 
 ![]({{ site.url }}/gambar/lilin.jpg)

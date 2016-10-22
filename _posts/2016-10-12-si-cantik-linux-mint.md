@@ -3,6 +3,7 @@ layout: post
 title: Si Cantik Linux Mint
 date: 2016-10-12 14:29:52 +0800
 category: linux
+gambar: linux.png
 ---
 
 Kenal dengan Linux Mint?

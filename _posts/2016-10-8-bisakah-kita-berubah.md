@@ -3,6 +3,7 @@ layout: post
 title: Bisakah Kita Berubah?
 date: 2016-10-08 20:07:48 +0800
 category: psikologi populer
+gambar: we.jpg
 ---
 
 ![]({{ site.url }}/gambar/we.jpg)
