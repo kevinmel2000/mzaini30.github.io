@@ -2,7 +2,7 @@
 layout: post
 title: Nyalakanlah Lilin Kecil
 date: 2016-10-22 08:07:00 +0800
-category: coba pikirkan
+category: kita dan dunia
 gambar: lilin.jpg
 ---
 
