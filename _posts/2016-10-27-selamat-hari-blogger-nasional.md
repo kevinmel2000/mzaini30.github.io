@@ -3,10 +3,10 @@ layout: post
 title: Selamat Hari Blogger Nasional...
 date: 2016-10-27 15:55:10 +0800
 category: happy anniversary
-gambar: hari-blogger-nasional.jpg
+gambar: hari blogger nasional.jpg
 ---
 
-![]({{ site.url }}/gambar/hari-blogger-nasional.jpg)
+![]({{ site.url }}/gambar/hari blogger nasional.jpg)
 
 Hai kawan semua... tau nggak kalau dunia blogging itu seru banget! Apalagi kalau ternyata di dunia blogging ini ada hari perayaannya lo... kapan itu? Hari ini bro!
 
