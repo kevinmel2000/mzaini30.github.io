@@ -141,6 +141,57 @@
       
       •
       
+        <a class="post-cat" href="/categories/#project euler">project euler</a>
+        
+      
+      
+    </p>
+    <h4>
+      <a href="/2016/10/30/project-euler-problem-4" class="post-title" title="Project Euler Problem 4">Project Euler Problem 4</a>
+      
+    </h4>
+
+    
+
+    </header>
+
+    
+    <div class="post-description">
+      <p>
+        
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">satu</span> <span class="o">=</span> <span class="n">dua</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">hasil_kali</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">hasil_kali_palindrom</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">satu</span><span class="p">:</span>
+	<span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">dua</span><span class="p">:</span>
+		<span class="n">kali</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+		<span class="n">hasil_kali</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">kali</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">hasil_kali</span><span class="p">:</span>
+	<span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">==</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+		<span class="n">hasil_kali_palindrom</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">hasil_kali_palindrom</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">hasil_kali_palindrom</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></code></pre></figure>
+
+
+      </p>
+      <a href="/2016/10/30/project-euler-problem-4" class="" title="Project Euler Problem 4">Lanjutkan Membaca</a>
+    </div>
+    
+
+    
+
+</section>
+
+<section class="post">
+  <header class="post-header">
+    <p class="post-meta">
+      <span class="post-date">
+        30 OCT 2016
+      </span>
+      
+      •
+      
         <a class="post-cat" href="/categories/#kita dan dunia">kita dan dunia</a>
         
       
@@ -514,51 +565,6 @@
 
       </p>
       <a href="/2016/10/19/project-euler-problem-10" class="" title="Project Euler Problem 10">Lanjutkan Membaca</a>
-    </div>
-    
-
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        19 OCT 2016
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="/categories/#project euler">project euler</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="/2016/10/19/project-euler-problem-3" class="post-title" title="Project Euler Problem 3">Project Euler Problem 3</a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">n</span> <span class="o">=</span> <span class="mi">600851475143</span>
-<span class="n">i</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="k">while</span> <span class="n">i</span> <span class="o">*</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">:</span>
-	<span class="k">while</span> <span class="n">n</span> <span class="o">%</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-		<span class="n">n</span> <span class="o">/=</span> <span class="n">i</span>
-	<span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
-<span class="k">print</span> <span class="n">n</span></code></pre></figure>
-
-
-      </p>
-      <a href="/2016/10/19/project-euler-problem-3" class="" title="Project Euler Problem 3">Lanjutkan Membaca</a>
     </div>
     
 
