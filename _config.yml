@@ -9,6 +9,7 @@ description: Jangan remehkan tulisan karena bisa mengubah pandangan orang tentan
 url:  # the base hostname & protocol for your site
 gambar: default.jpg
 twitter_username: mzaini30
+death: November 2018
 
 gems: [jekyll-paginate]
 exclude: ["Gemfile"]

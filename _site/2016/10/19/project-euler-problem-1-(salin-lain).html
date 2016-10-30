@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bisakah Kita Berubah? - Muhammad Zaini - November 2018</title>
+  <title>Project Euler Problem 1 - Muhammad Zaini - November 2018</title>
   <meta name="author" content="Muhammad Zaini">
-  <meta name="description" content="Bisakah kita berubah? Jawabannya adalah IYA, PASTI BISA!Mengapa?">
+  <meta name="description" content="angka = []for n in range(1, 1000):	if n % 3 == 0 or n % 5 == 0:		angka.append(n)print sum(angka)">
 
-  <meta property="og:title" content="Bisakah Kita Berubah? - Muhammad Zaini">
-  <meta property="og:url" content="/2016/10/08/bisakah-kita-berubah">
+  <meta property="og:title" content="Project Euler Problem 1 - Muhammad Zaini">
+  <meta property="og:url" content="/2016/10/19/project-euler-problem-1-(salin-lain)">
   <meta property="og:site_name" content="Muhammad Zaini">
-  <meta property="og:description" content="Bisakah kita berubah? Jawabannya adalah IYA, PASTI BISA!Mengapa?">
-  <meta property="og:image" content="/gambar/we.jpg">
+  <meta property="og:description" content="angka = []for n in range(1, 1000):	if n % 3 == 0 or n % 5 == 0:		angka.append(n)print sum(angka)">
+  <meta property="og:image" content="/gambar/euler-1.jpg">
   <meta property="og:type" content="blog">
   <meta content='150036038480252' property='fb:app_id'/>
   <meta content='100000415959373' property='fb:admins'/>
@@ -23,20 +23,20 @@
   <meta content='id_ID' property='og:locale:alternate'/>
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:description" content="Bisakah kita berubah? Jawabannya adalah IYA, PASTI BISA!Mengapa?">
-  <meta name="twitter:title" content="Bisakah Kita Berubah? - Muhammad Zaini">
-  <meta name="twitter:url" content="/2016/10/08/bisakah-kita-berubah">
+  <meta name="twitter:description" content="angka = []for n in range(1, 1000):	if n % 3 == 0 or n % 5 == 0:		angka.append(n)print sum(angka)">
+  <meta name="twitter:title" content="Project Euler Problem 1 - Muhammad Zaini">
+  <meta name="twitter:url" content="/2016/10/19/project-euler-problem-1-(salin-lain)">
   <meta name="twitter:site" content="Muhammad Zaini">
   <meta name="twitter:creator" content="@mzaini30">
   <meta name="twitter:domain" content="">
-  <meta property="twitter:image" content="/gambar/we.jpg">
+  <meta property="twitter:image" content="/gambar/euler-1.jpg">
 
   <!-- CSS files -->
   <link rel="stylesheet" href="/css/roboto.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/main.css">
 
-  <link rel="canonical" href="/2016/10/08/bisakah-kita-berubah">
+  <link rel="canonical" href="/2016/10/19/project-euler-problem-1-(salin-lain)">
   <link rel="alternate" type="application/rss+xml" title="Muhammad Zaini" href="/feed.xml " />
 
   <!-- Icons -->
@@ -139,10 +139,10 @@
 
 <div id="post">
   <header class="post-header">
-    <h1 title="Bisakah Kita Berubah?">Bisakah Kita Berubah?</h1>
+    <h1 title="Project Euler Problem 1">Project Euler Problem 1</h1>
     <span class="post-meta">
       <span class="post-date">
-        8 OCT 2016
+        19 OCT 2016
       </span>
       •
       <span class="read-time" title="Estimated read time">
@@ -158,26 +158,203 @@
 
   <article class="post-content">
     
-    <p><img src="/gambar/we.jpg" alt="" /></p>
-
-<p>Bisakah kita berubah? Jawabannya adalah IYA, PASTI BISA!</p>
-
-<p>Mengapa?</p>
+    
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">angka</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+	<span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+		<span class="n">angka</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">sum</span><span class="p">(</span><span class="n">angka</span><span class="p">)</span></code></pre></figure>
 
 <!-- more -->
 
-<p>Kalau menurut <a href="https://id.wikipedia.org/wiki/B.F._Skinner">Skinner</a>, setiap orang bisa berubah menjadi lebih baik maupun menjadi lebih buruk. Apa yang membuatnya berubah? Tentu saja yang paling utama adalah lingkungan. Apalagi kalau di lingkungan itu kan tentunya ada aturan-aturan tertentu yang mengikat setiap orang yang ada di dalamnya untuk mematuhi aturan-aturan tersebut, baik secara ikhlas maupun terpaksa. Ketika seseorang mengikuti aturan tersebut, maka akan ada pujian, dukungan dari anggota kelompok lain, penerimaan, dan hal serupa lainnya; yang disebut Skinner sebagai <em>reinforcement</em> atau penguatan. Sedangkan, ketika seseorang melakukan hal-hal yang tabu maupun dilarang oleh kelompok tersebut, maka akan jatuh hukuman atau <em>extiction</em> kepadanya supaya tidak mengulangi lagi perbuatannya.</p>
-
-<p>Inilah yang disebut sebagai aliran Behavioris dalam Psikologi, yaitu suatu aliran yang menyatakan bahwa setiap perilaku manusia bisa dikendalikan melalui penguatan maupun hukuman.</p>
-
-<p>Oke, sekadar <em>intermezzo</em> ya… ada tiga aliran dalam Psikologi (sepengetahuanku ya…) yaitu <a href="https://id.wikipedia.org/wiki/Psikoanalisis">Psikoanalisis</a>, <a href="https://id.wikipedia.org/wiki/Behaviorisme">Behaviorisme</a>, dan <a href="https://id.wikipedia.org/wiki/Psikologi_humanis">Humanisme</a>. Kasarannya ya, kalau psikoanalisis itu menyatakan bahwa setiap manusia yang lahir sudah membawa masalah, dalam behaviorisme menyatakan bahwa manusia yang lahir itu masih kosong, masih bersih, dan kalau dalam humanisme, manusia yang lahir itu pada dasarnya adalah baik semua.</p>
+<p><img src="/gambar/euler-1.jpg" alt="" /></p>
 
 
-    
+    <style>
+      .rect {
+        border-top: 3px solid #333;
+        border-bottom: 3px solid #333;
+        padding-top: 15px;
+        margin:0 auto;
+      }
+
+      .rel {
+        width: 200px;
+        display: inline-block;
+        padding: 5px;
+        opacity: 0.8;
+      }
+
+      .rel hover {
+        opacity: 1;    
+      }
+    </style>
+
+    <div class="relatedPosts">
+
+    <h4>You May Also Enjoy</h4> 
       
       
-    
-    
+      
+      
+
+      
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+          
+          
+
+          
+
+          
+
+        
+
+    </div>
+
     <div class="kontak">
     <br>
     <h6>Say Hello:</h6>
@@ -189,19 +366,19 @@
   <h6>Share on: </h6>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=/2016/10/08/bisakah-kita-berubah" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=/2016/10/19/project-euler-problem-1-(salin-lain)" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/2016/10/08/bisakah-kita-berubah" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/2016/10/19/project-euler-problem-1-(salin-lain)" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=/2016/10/08/bisakah-kita-berubah" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=/2016/10/19/project-euler-problem-1-(salin-lain)" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
     <li>
-      <a href="https://news.ycombinator.com/submitlink?u=/2016/10/08/bisakah-kita-berubah" class="hacker-news btn" title="Share on Hacker News"><i class="fa fa-hacker-news"></i><span> Hacker News</span></a>
+      <a href="https://news.ycombinator.com/submitlink?u=/2016/10/19/project-euler-problem-1-(salin-lain)" class="hacker-news btn" title="Share on Hacker News"><i class="fa fa-hacker-news"></i><span> Hacker News</span></a>
     </li>
     <li>
-      <a href="https://www.reddit.com/submit?url=/2016/10/08/bisakah-kita-berubah" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
+      <a href="https://www.reddit.com/submit?url=/2016/10/19/project-euler-problem-1-(salin-lain)" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
     </li>
   </ul>
 </div><!-- end share-buttons -->

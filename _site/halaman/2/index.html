@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Muhammad Zaini - Rajin pangkal pandai</title>
+  <title>Muhammad Zaini - Rajin pangkal pandai - November 2018</title>
   <meta name="author" content="Muhammad Zaini">
   <meta name="description" content="Jangan remehkan tulisan karena bisa mengubah pandangan orang tentang hidup, masa depan, harapan, dan cinta">
 
@@ -132,6 +132,75 @@
 </style>
 <div class="play-store"><a href='https://play.google.com/store/apps/details?id=com.muhammad.zaini&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt='undefined' src='/gambar/play store.png'/></a></div>
         
+<section class="post">
+  <header class="post-header">
+    <p class="post-meta">
+      <span class="post-date">
+        17 OCT 2016
+      </span>
+      
+      •
+      
+        <a class="post-cat" href="/categories/#python">python</a>
+        
+      
+      
+    </p>
+    <h4>
+      <a href="/2016/10/17/program-menghitung-tagihan-listrik" class="post-title" title="Program Menghitung Tagihan Listrik">Program Menghitung Tagihan Listrik</a>
+      
+    </h4>
+
+    
+
+    </header>
+
+    
+    <div class="post-description">
+      <p>
+        
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">tdl</span> <span class="o">=</span> <span class="mi">250</span>
+<span class="n">subsidi</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">bayar</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="n">nama</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Masukkan nama: "</span><span class="p">)</span>
+<span class="n">alamat</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Masukkan alamat: "</span><span class="p">)</span>
+<span class="n">kw_lalu</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Masukkan kW bulan lalu: "</span><span class="p">)</span>
+<span class="n">kw_sekarang</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Masukkan kW bulan ini: "</span><span class="p">)</span>
+<span class="n">tegangan</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Masukkan tegangan (450, 900, 1200): "</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">tegangan</span> <span class="o">==</span> <span class="mi">450</span> <span class="ow">or</span> <span class="n">tegangan</span> <span class="o">==</span> <span class="mi">900</span> <span class="ow">or</span> <span class="n">tegangan</span> <span class="o">==</span> <span class="mi">1200</span> <span class="ow">and</span> <span class="n">nama</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="ow">and</span> <span class="n">alamat</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="ow">and</span> <span class="n">kw_lalu</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="ow">and</span> <span class="n">kw_sekarang</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+	
+	<span class="k">print</span> <span class="s">"Nama: </span><span class="si">%</span><span class="s">r"</span> <span class="o">%</span> <span class="n">nama</span>
+	<span class="k">print</span> <span class="s">"Alamat: </span><span class="si">%</span><span class="s">r"</span> <span class="o">%</span> <span class="n">alamat</span>
+	<span class="k">print</span> <span class="s">"Tegangan: </span><span class="si">%</span><span class="s">r"</span> <span class="o">%</span> <span class="n">tegangan</span>
+
+	<span class="n">bayar</span> <span class="o">=</span> <span class="p">(</span><span class="n">kw_sekarang</span> <span class="o">-</span> <span class="n">kw_lalu</span><span class="p">)</span> <span class="o">*</span> <span class="n">tdl</span>
+
+	<span class="k">print</span> <span class="s">"Tarif pokok: </span><span class="si">%</span><span class="s">r"</span> <span class="o">%</span> <span class="n">bayar</span>
+
+	<span class="k">if</span> <span class="n">tegangan</span> <span class="o">==</span> <span class="mi">450</span><span class="p">:</span>
+		<span class="n">subsidi</span> <span class="o">=</span> <span class="n">bayar</span> <span class="o">*</span> <span class="mf">0.1</span>
+		<span class="n">total</span> <span class="o">=</span> <span class="n">bayar</span> <span class="o">-</span> <span class="n">subsidi</span>
+		<span class="k">print</span> <span class="s">"Subsidi: </span><span class="si">%</span><span class="s">r"</span> <span class="o">%</span> <span class="n">subsidi</span>
+		<span class="k">print</span> <span class="s">"Total tagihan: </span><span class="si">%</span><span class="s">r"</span> <span class="o">%</span> <span class="n">total</span>
+	<span class="k">if</span> <span class="n">tegangan</span> <span class="o">==</span> <span class="mi">1200</span><span class="p">:</span>
+		<span class="n">tambahan</span> <span class="o">=</span> <span class="n">bayar</span> <span class="o">*</span> <span class="mf">0.1</span>
+		<span class="n">total</span> <span class="o">=</span> <span class="n">bayar</span> <span class="o">+</span> <span class="n">tambahan</span>
+		<span class="k">print</span> <span class="s">"Biaya tambahan: </span><span class="si">%</span><span class="s">r"</span> <span class="o">%</span> <span class="n">tambahan</span>
+		<span class="k">print</span> <span class="s">"Total tagihan: </span><span class="si">%</span><span class="s">r"</span> <span class="o">%</span> <span class="n">total</span></code></pre></figure>
+
+
+      </p>
+      <a href="/2016/10/17/program-menghitung-tagihan-listrik" class="" title="Program Menghitung Tagihan Listrik">Lanjutkan Membaca</a>
+    </div>
+    
+
+    
+
+</section>
+
 <section class="post">
   <header class="post-header">
     <p class="post-meta">

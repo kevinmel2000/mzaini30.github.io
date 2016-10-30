@@ -36,7 +36,31 @@ layout: default
   </header>
 
   <article class="post-content">
+    
     {{ content }}
+
+    {% unless page.category == null %}
+      {% capture pageCategory %}{{ page.category }}{% endcapture %}
+      {% unless site.categories[pageCategory].size == 1 %}
+        <div class="tag-list">
+          <div class="tag-group">
+          <h5 class="tag-group-title">More {{ page.category }} Posts!</h5>
+          {% for post in site.categories[pageCategory] limit:6 %}
+            {% unless post.title == page.title %}
+
+             <article class="tag-item">
+              <a class="tag-item-title" href="{{ site.url }}{{ post.url }}">
+                {{ post.title }}
+              </a>
+             </article>
+
+            {% endunless %}
+          {% endfor %}
+          </div>
+        </div>
+      {% endunless %}
+    {% endunless %}
+    
     <div class="kontak">
     <br>
     <h6>Say Hello:</h6>
