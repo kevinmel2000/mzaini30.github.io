@@ -3,7 +3,7 @@ layout: post
 title: Terkadang, Harapan Itu Hanya Sekedar Harapan
 date: 2016-10-26 23:10:23 +0800
 gambar: harapan.jpg
-category: my life
+category: kita dan dunia
 ---
 
 ![]({{ site.url }}/gambar/harapan.jpg)
