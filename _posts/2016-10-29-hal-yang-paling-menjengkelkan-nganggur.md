@@ -3,7 +3,7 @@ layout: post
 title: "Hal yang Paling Menjengkelkan: Nganggur"
 date: 2016-10-29 16:19:35 +0800
 gambar: jengkel.png
-category: scream
+category: kita dan dunia
 ---
 
 ![]({{ site.url }}/gambar/jengkel.png)

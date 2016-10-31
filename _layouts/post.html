@@ -44,7 +44,7 @@ layout: default
       {% unless site.categories[pageCategory].size == 1 %}
         <div class="tag-list">
           <div class="tag-group">
-          <h5 class="tag-group-title">More {{ page.category }} Posts!</h5>
+          <h5 class="tag-group-title">More "{{ page.category }}" Posts!</h5>
           {% for post in site.categories[pageCategory] limit:6 %}
             {% unless post.title == page.title %}
 

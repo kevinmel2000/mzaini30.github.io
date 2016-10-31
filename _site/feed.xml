@@ -5,9 +5,38 @@
     <description>Jangan remehkan tulisan karena bisa mengubah pandangan orang tentang hidup, masa depan, harapan, dan cinta</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Oct 2016 13:30:50 +0000</pubDate>
-    <lastBuildDate>Sun, 30 Oct 2016 13:30:50 +0000</lastBuildDate>
+    <pubDate>Mon, 31 Oct 2016 04:36:57 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Oct 2016 04:36:57 +0000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Gara-Gara Terlalu Nyantai Sih</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/gambar/weeping-angel.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kita itu sebenarnya sudah tau ada banyak hal di dunia ini yang menjadi distraksi atau mengganggu bagi kehidupan kita. Hape, sosial media, internet, Facebook, Twitter, LINE, Telegram, WhatsApp, semua itu mengganggu bagi kita ketika kita tau dengan sebenar-benarnya tau bahwa yang sedang kita lakukan ini &lt;em&gt;nggak ada manfaatnya&lt;/em&gt; kecuali nyari senengnya aja.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Kita pun sebenarnya saat ini sedang tau ya, bahwa ada berbagai tugas dan komitmen yang harus kita lakukan saat ini. Kita harus mengerjakan tugas dari dosen entah itu menghapal, menyiapkan presentasi, menulis makalah, mereviu jurnal, dan kita pun juga saat ini tau ada berbagai macam komitmen yang harus kita lakukan, menghapal Quran, membaca tafsir, memahami hadits, jualan, menamatkan Projet Euler. Dan ternyata, kita lebih suka menghabiskan waktu kita buat senang-senang daripada menuntaskan tugas-tugas kita.&lt;/p&gt;
+
+&lt;p&gt;Lalu, apa yang terjadi?&lt;/p&gt;
+
+&lt;p&gt;Ketika waktunya &lt;em&gt;show time&lt;/em&gt;, kita hanya bisa duduk di belakang, memandangi dengan kagum pertunjukan kawan-kawan kita dengan merasa tak berdaya. “Ah, apalah aku, belum siap apa-apa”. Lantas, ketika kita tau berbagai hal yang menyebabkan kita menjadi seperti ini, dan kita pun tau bahwa kita sebenarnya bisa mengubahnya tanpa perlu masuk ke titik terendah Abyss, memohon pada Alyss untuk mengubah masa lalu. Kita tak perlu itu. Karena kita bisa mengubah masa depan. Di saat kita tau bahwa kita salah, kita tau salahnya di mana, dan kita tau yang benar itu seperti apa, lantas, apakah kita akan salah &lt;em&gt;lagi&lt;/em&gt; untuk kedua kalinya?&lt;/p&gt;
+
+			&lt;div class="kontak"&gt;
+			&lt;hr&gt;
+		    &lt;h2&gt;Say Hello:&lt;/h2&gt;
+			&lt;p&gt;Facebook: &lt;a href="http://facebook.com/mzaini30"&gt;/mzaini30&lt;/a&gt; / Twitter: &lt;a href="http://twitter.com/mzaini30"&gt;@mzaini30&lt;/a&gt; / LINE: &lt;a href="http://line.me/ti/p/~mzaini30"&gt;mzaini30&lt;/a&gt; / Telegram: &lt;a href="http://telegram.me/mzaini30"&gt;@mzaini30&lt;/a&gt; / Email: &lt;a href="mailto:muhzaini30@gmail.com"&gt;muhzaini30@gmail.com&lt;/a&gt;&lt;/p&gt;
+		    &lt;/div&gt;
+        </description>
+        <pubDate>Mon, 31 Oct 2016 03:51:50 +0000</pubDate>
+        <link>/2016/10/31/gara-gara-terlalu-nyantai-sih</link>
+        <guid isPermaLink="true">/2016/10/31/gara-gara-terlalu-nyantai-sih</guid>
+        
+        
+        <category>kita dan dunia</category>
+        
+      </item>
     
       <item>
         <title>Project Euler Problem 4</title>
@@ -95,7 +124,7 @@
         <guid isPermaLink="true">/2016/10/29/hal-yang-paling-menjengkelkan-nganggur</guid>
         
         
-        <category>scream</category>
+        <category>kita dan dunia</category>
         
       </item>
     
@@ -338,44 +367,6 @@
         
         
         <category>kita dan dunia</category>
-        
-      </item>
-    
-      <item>
-        <title>Project Euler Problem 10</title>
-        <description>
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;hi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000000&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;xrange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;xrange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
-
-	&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-			&lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;&lt;img src=&quot;/gambar/euler-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-			&lt;div class="kontak"&gt;
-			&lt;hr&gt;
-		    &lt;h2&gt;Say Hello:&lt;/h2&gt;
-			&lt;p&gt;Facebook: &lt;a href="http://facebook.com/mzaini30"&gt;/mzaini30&lt;/a&gt; / Twitter: &lt;a href="http://twitter.com/mzaini30"&gt;@mzaini30&lt;/a&gt; / LINE: &lt;a href="http://line.me/ti/p/~mzaini30"&gt;mzaini30&lt;/a&gt; / Telegram: &lt;a href="http://telegram.me/mzaini30"&gt;@mzaini30&lt;/a&gt; / Email: &lt;a href="mailto:muhzaini30@gmail.com"&gt;muhzaini30@gmail.com&lt;/a&gt;&lt;/p&gt;
-		    &lt;/div&gt;
-        </description>
-        <pubDate>Wed, 19 Oct 2016 01:11:12 +0000</pubDate>
-        <link>/2016/10/19/project-euler-problem-10</link>
-        <guid isPermaLink="true">/2016/10/19/project-euler-problem-10</guid>
-        
-        
-        <category>project euler</category>
         
       </item>
     
