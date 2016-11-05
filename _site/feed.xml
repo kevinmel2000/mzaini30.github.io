@@ -5,9 +5,190 @@
     <description>Jangan remehkan tulisan karena bisa mengubah pandangan orang tentang hidup, masa depan, harapan, dan cinta</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Oct 2016 21:25:58 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Oct 2016 21:25:58 +0000</lastBuildDate>
+    <pubDate>Sat, 05 Nov 2016 01:53:16 +0000</pubDate>
+    <lastBuildDate>Sat, 05 Nov 2016 01:53:16 +0000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Download Komik dengan Linux</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/gambar/manga.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;tools-yang-dibutuhkan&quot;&gt;Tools yang Dibutuhkan&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://internetpositif.uzone.id/&quot;&gt;Internet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.linux.or.id/&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/victorporof/Sublime-HTMLPrettify&quot;&gt;Sublime HTML Prettify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org/id/firefox/new/&quot;&gt;Mozilla Firefox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/image-block/&quot;&gt;Add-ons ImageBlock&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;langkah-pengerjaan&quot;&gt;Langkah Pengerjaan&lt;/h1&gt;
+
+&lt;!-- more --&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Buat folder &lt;code class=&quot;highlighter-rouge&quot;&gt;komik 2&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nonaktifkan gambar pada Firefox&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pilih &lt;a href=&quot;http://www.mangacanblog.com/baca-komik-black_rock_shooter_the_game-1-2-bahasa-indonesia-black_rock_shooter_the_game-1-terbaru.html&quot;&gt;chapter manga&lt;/a&gt; yang akan kamu download dari situs &lt;a href=&quot;http://mangacanblog.com&quot;&gt;mangacanblog.com&lt;/a&gt; lalu klik &lt;code class=&quot;highlighter-rouge&quot;&gt;Baca Mode Full Page&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + S&lt;/code&gt; untuk menyimpan halaman. Pilih folder &lt;code class=&quot;highlighter-rouge&quot;&gt;komik 2&lt;/code&gt; dan buatlah folder baru sesuai dengan judul manga dan chapter manga. Di sini saya membuat folder &lt;code class=&quot;highlighter-rouge&quot;&gt;black rock shooter the game&lt;/code&gt; lalu membuat folder &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;. Simpan halaman dengan nama &lt;code class=&quot;highlighter-rouge&quot;&gt;data.html&lt;/code&gt; dan pilih &lt;code class=&quot;highlighter-rouge&quot;&gt;Web Page, HTML Only&lt;/code&gt; pada pilihan penyimpanan. Klik &lt;code class=&quot;highlighter-rouge&quot;&gt;Simpan&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Buka file &lt;code class=&quot;highlighter-rouge&quot;&gt;data.html&lt;/code&gt; yang sudah kita download tadi dengan menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;Sublime Text&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kamu bisa menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Shift + H&lt;/code&gt; untuk menjalankan &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML Prettify&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cari &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div id=&quot;imgholder&quot;&amp;gt;&lt;/code&gt; lalu hapus dari bagian tersebut hingga ke atas&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cari &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/div&amp;gt;&lt;/code&gt; yang terletak setelah &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/center&amp;gt;&lt;/code&gt; lalu hapuslah dari bagian tersebut hingga akhir&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;HTMl Prettify&lt;/code&gt; untuk merapikan script&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Blok &lt;code class=&quot;highlighter-rouge&quot;&gt;terbaru-1&lt;/code&gt; lalu tekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + H&lt;/code&gt;. Di bagian &lt;code class=&quot;highlighter-rouge&quot;&gt;Find What&lt;/code&gt;, ubah &lt;code class=&quot;highlighter-rouge&quot;&gt;terbaru-1&lt;/code&gt; menjadi &lt;code class=&quot;highlighter-rouge&quot;&gt;terbaru-\d{1,}&lt;/code&gt; dan jangan lupa untuk mengaktifkan regex dengan menekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Alt + R&lt;/code&gt;. Untuk bagian &lt;code class=&quot;highlighter-rouge&quot;&gt;Replace With&lt;/code&gt;, kosongkan saja. Tekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + enter&lt;/code&gt; untuk menjalankan find and replace&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Blok &lt;code class=&quot;highlighter-rouge&quot;&gt;Terbaru 0&lt;/code&gt; lalu tekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + H&lt;/code&gt;. Di bagian &lt;code class=&quot;highlighter-rouge&quot;&gt;Find What&lt;/code&gt;, ubah &lt;code class=&quot;highlighter-rouge&quot;&gt;Terbaru 0&lt;/code&gt; menjadi &lt;code class=&quot;highlighter-rouge&quot;&gt;Terbaru \d{1,}&lt;/code&gt; dan jangan lupa untuk mengaktifkan regex dengan menekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Alt + R&lt;/code&gt;. Untuk bagian &lt;code class=&quot;highlighter-rouge&quot;&gt;Replace With&lt;/code&gt;, kosongkan saja. Tekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + enter&lt;/code&gt; untuk menjalankan find and replace&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Salin bagian&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;center&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.mangacanblog.com/baca-komik-black_rock_shooter_the_game-1-2-bahasa-indonesia-black_rock_shooter_the_game-1-.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;manga&#39;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Dilarang COPAS - situs resmi www.mangacanblog.com - Komik black rock shooter the game 001 - boot up BRS 2 Indonesia black rock shooter the game 001 - boot up BRS |Baca Manga Komik Indonesia|Mangacan&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;dengan menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + C&lt;/code&gt; lalu tekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + H&lt;/code&gt; dan tempelkan yang kita salin tadi menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + V&lt;/code&gt; di bagian &lt;code class=&quot;highlighter-rouge&quot;&gt;Find What&lt;/code&gt;. Matikan regex dengan menekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Alt + R&lt;/code&gt;. Lalu tekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + enter&lt;/code&gt; untuk menjalankan find and replace&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/12.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Salin bagian&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+ width=&quot;990&quot; class=&quot;picture&quot; /&amp;gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/center&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;dengan menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + C&lt;/code&gt; lalu tekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + H&lt;/code&gt; dan tempelkan yang kita salin tadi menggunakan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + V&lt;/code&gt; di bagian &lt;code class=&quot;highlighter-rouge&quot;&gt;Find What&lt;/code&gt;. Lalu tekan &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + enter&lt;/code&gt; untuk menjalankan find and replace&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/13.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hapus bagian yang tidak diperlukan&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/14.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Buka find and replace lalu di bagian &lt;code class=&quot;highlighter-rouge&quot;&gt;Find What&lt;/code&gt;, isilah dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;(.+)&lt;/code&gt; dan di bagian &lt;code class=&quot;highlighter-rouge&quot;&gt;Replace With&lt;/code&gt;, isi dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;wget \1&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/15.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Buka folder. Buka Terminal di folder tersebut. Lalu, ketikkan &lt;code class=&quot;highlighter-rouge&quot;&gt;mv data.html data.sh&lt;/code&gt;. Setelah itu, ketikkan &lt;code class=&quot;highlighter-rouge&quot;&gt;sh data.sh&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/16a.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/16b.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Proses mengunduh&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ketikkan &lt;code class=&quot;highlighter-rouge&quot;&gt;ls &amp;gt; baca.html&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/18.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Buka &lt;code class=&quot;highlighter-rouge&quot;&gt;baca.html&lt;/code&gt; dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;Sublime Text&lt;/code&gt;, hapus bagian yang tidak perlu. Lalu, buka find and replace. Di bagain &lt;code class=&quot;highlighter-rouge&quot;&gt;Find What&lt;/code&gt;, isi dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;(.+)&lt;/code&gt; dan di bagian &lt;code class=&quot;highlighter-rouge&quot;&gt;Replace With&lt;/code&gt;, isi dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img src=\&quot;\1\&quot;/&amp;gt;&lt;/code&gt;. Kemudian ketik &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;../../style.css&quot;&amp;gt;&lt;/code&gt; di bagian atas script&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/19a.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/19b.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kembali ke folder dan menuju &lt;code class=&quot;highlighter-rouge&quot;&gt;komik 2&lt;/code&gt;. Buka Terminal dan ketikkan &lt;code class=&quot;highlighter-rouge&quot;&gt;touch style.css&lt;/code&gt; lalu bukalah &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; dengan &lt;code class=&quot;highlighter-rouge&quot;&gt;Sublime Text&lt;/code&gt; dan isilah dengan script di bawah ini:&lt;/p&gt;
+
+    &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#202020&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;80%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/20.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Komik siap dinikmati&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/gambar/komik/21.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+			&lt;div class="kontak"&gt;
+			&lt;hr&gt;
+		    &lt;h2&gt;Say Hello:&lt;/h2&gt;
+			&lt;p&gt;Facebook: &lt;a href="http://facebook.com/mzaini30"&gt;/mzaini30&lt;/a&gt; / Twitter: &lt;a href="http://twitter.com/mzaini30"&gt;@mzaini30&lt;/a&gt; / LINE: &lt;a href="http://line.me/ti/p/~mzaini30"&gt;mzaini30&lt;/a&gt; / Telegram: &lt;a href="http://telegram.me/mzaini30"&gt;@mzaini30&lt;/a&gt; / Email: &lt;a href="mailto:muhzaini30@gmail.com"&gt;muhzaini30@gmail.com&lt;/a&gt;&lt;/p&gt;
+		    &lt;/div&gt;
+        </description>
+        <pubDate>Sat, 05 Nov 2016 00:25:47 +0000</pubDate>
+        <link>/2016/11/05/download-komik-dengan-linux</link>
+        <guid isPermaLink="true">/2016/11/05/download-komik-dengan-linux</guid>
+        
+        
+        <category>linux</category>
+        
+      </item>
     
       <item>
         <title>Jangan Terlalu Toleran pada Diri Sendiri</title>
@@ -307,41 +488,6 @@
         <pubDate>Tue, 25 Oct 2016 02:50:58 +0000</pubDate>
         <link>/2016/10/25/impian-kita-bagi-dunia</link>
         <guid isPermaLink="true">/2016/10/25/impian-kita-bagi-dunia</guid>
-        
-        
-        <category>kita dan dunia</category>
-        
-      </item>
-    
-      <item>
-        <title>Betapa Langka dan Mahalnya Perdamaian</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/gambar/war.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Miris sekali kalau kita mendengar kabar-kabar dari Suriah, Irak, Palestina, dan negara-negara teluk lainnya…&lt;/p&gt;
-
-&lt;p&gt;Tidak adakah kata lain selain ‘peperangan’?&lt;/p&gt;
-
-&lt;p&gt;Betapa sedih dan hancurnya hati ini ketika melihat anak-anak kecil dibantai, ibu-ibu dihinakan, rumah-rumah dibakar, rumah sakit dimusnahkan, masjid-masjid dilenyapkan. Tak adakah hati dalam diri mereka, para penjajah? Itukah kesenangan bagi mereka? Tak puaskah beribu-ribu nyawa, beribu-ribu harapan, cita, dan impian lenyap dan musnah dari dunia ini?&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Pantaskah kita berdiam diri di sini melihat itu semua? Pantaskah kita menghibur diri kita, menghabiskan berjuta-juta harta kita tanpa makna begitu saja? Tak adakah kepedulian sedikit saja walau sebesar biji sawi? Mereka saudara kita! Mereka manusia, kita pun manusia! Apakah kita tak pernah peduli? Apakah kita tak ingin dengan sungguh-sungguh membantu mereka?&lt;/p&gt;
-
-&lt;p&gt;Mari tundukkan kepala kita, mari kita renungkan setiap peristiwa yang mereka alami, setiap penistaan, pemusnahan, pelenyapan impian dan harapan, yang meliputi hari-hari kita. Hari ini kita masih bisa tertawa, tersenyum, bahagia, tapi bagi mereka? Tertawa? Kamu menghina? Lihatlah kita yang masih mengeluh berpuasa satu hari… saja, sedangkan mereka, mau makan pun tak bisa. Nyaman kah makan dibawah dentuman suara bom dan rudal? Nyaman kah mereka hidup di bawah ketidakpastian masa depan?&lt;/p&gt;
-
-&lt;p&gt;Hidup kita, hidup mereka… adalah satu. Sangat tak pantaslah bagi kita kalau hati ini tak terketuk menghentikan kekejian ini…&lt;/p&gt;
-
-&lt;p&gt;: selamanya&lt;/p&gt;
-
-			&lt;div class="kontak"&gt;
-			&lt;hr&gt;
-		    &lt;h2&gt;Say Hello:&lt;/h2&gt;
-			&lt;p&gt;Facebook: &lt;a href="http://facebook.com/mzaini30"&gt;/mzaini30&lt;/a&gt; / Twitter: &lt;a href="http://twitter.com/mzaini30"&gt;@mzaini30&lt;/a&gt; / LINE: &lt;a href="http://line.me/ti/p/~mzaini30"&gt;mzaini30&lt;/a&gt; / Telegram: &lt;a href="http://telegram.me/mzaini30"&gt;@mzaini30&lt;/a&gt; / Email: &lt;a href="mailto:muhzaini30@gmail.com"&gt;muhzaini30@gmail.com&lt;/a&gt;&lt;/p&gt;
-		    &lt;/div&gt;
-        </description>
-        <pubDate>Mon, 24 Oct 2016 08:06:12 +0000</pubDate>
-        <link>/2016/10/24/betapa-langka-dan-mahalnya-perdamaian</link>
-        <guid isPermaLink="true">/2016/10/24/betapa-langka-dan-mahalnya-perdamaian</guid>
         
         
         <category>kita dan dunia</category>

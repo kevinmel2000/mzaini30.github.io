@@ -11,8 +11,8 @@ gambar: default.jpg
 twitter_username: mzaini30
 death: November 2018
 
-gems: [jekyll-paginate]
-exclude: ["Gemfile"]
+gems:
+  - jekyll-paginate
 # paginate ambil dari trophy
 paginate: 10
 paginate_path: "/halaman/:num/"
