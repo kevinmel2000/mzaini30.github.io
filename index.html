@@ -1,76 +1,134 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-{% for post in paginator.posts %}
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        {{ post.date | date: "%-d %b %Y" | upcase }}
-      </span>
-      {% if post.categories.size > 0 %}
-      •
-      {% for cat in post.categories %}
-        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
-        {% unless forloop.last %}
-        <span>/</span>
-        {% endunless %}
-      {% endfor %}
-      {% endif %}
-    </p>
-    <h4>
-      <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title }}">{{ post.title }}</a>
-      {% if post.link %}
-      <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-external-link"></i></a>
-      {% endif %}
-    </h4>
+<head>
+    <title>Muhammad Zaini - November 2018</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bin/bootstrap 4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bin/bootstrap 3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="bin/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bin/js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="bin/js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
 
-    {% if post.author %}
-      {% assign author = site.data.authors[post.author] %}
-    {% else %}
-      {% assign author = site.owner %}
-    {% endif %}
-
-    </header>
-
-    {% if post.excerpt %}
-    <div class="post-description">
-      <p>
-        {{ post.excerpt }}
-      </p>
-      <a href="{{ site.url }}{{ post.url }}" class="" title="{{ post.title }}">Lanjutkan Membaca</a>
+<body>
+    <div class="jumbotron">
+        <h1 class="text-center">Muhammad Zaini</h1>
+        <p class="text-center">~ home sweet home ~</p>
     </div>
-    {% endif %}
+    <div class="container">
+        <div class="card">
+            <div class="card-block">
+                <p class="card-text text-justify lead">Assalamualaikum... Saya Muhammad Zaini. Seorang mahasiswa Psikologi yang suka koding. Terkadang mengisi waktu senggang dengan menyelami rasa di balik makna setiap kata. Ah, sudahlah. Gulir layar ke bawah untuk melihat kontribusiku pada dunia...</p>
+            </div>
+        </div>
+        <br>
+        <h1 class="text-center">Project</h1>
+        <div class="masonry">
+            <div class="masonry-item">
+                <a target="_blank" href="http://github.com/mzaini30">
+                    <div class="card">
+                        <img src="gambar/github.jpg" class="card-img-top">
+                        <div class="card-block">
+                            <h4 class="card-title">GitHub</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="masonry-item">
+                <a target="_blank" href="http://facebook.com/arsitekandroid">
+                    <div class="card">
+                        <img src="gambar/android.jpg" class="card-img-top">
+                        <div class="card-block">
+                            <h4 class="card-title">Aplikasi Android</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="masonry-item">
+                <a target="_blank" href="http://projects.co.id/public/browse_users/view/c98b11/mzaini30">
+                    <div class="card">
+                        <img src="gambar/projects.jpg" class="card-img-top">
+                        <div class="card-block">
+                            <h4 class="card-title">Projects.co.id</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <h1 class="text-center">Writing</h1>
+        <div class="masonry">
+            <div class="masonry-item">
+                <a target="_blank" href="http://mzaini30.wordpress.com">
+                    <div class="card">
+                        <img src="gambar/wordpress.png" class="card-img-top">
+                        <div class="card-block">
+                            <h4 class="card-title">Wordpress</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
+        <h1 class="text-center">Contact</h1>
+        <div class="masonry">
+            <div class="masonry-item">
+                <a target="_blank" href="http://facebook.com/mzaini30">
+                    <div class="card">
+                        <img src="gambar/facebook.jpg" class="card-img-top">
+                        <div class="card-block">
+                            <h4 class="card-title">Facebook</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="masonry-item">
+                <a target="_blank" href="http://twitter.com/mzaini30">
+                    <div class="card">
+                        <img src="gambar/twitter.jpg" class="card-img-top">
+                        <div class="card-block">
+                            <h4 class="card-title">Twitter</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="masonry-item">
+                <a target="_blank" href="http://line.me/ti/p/~mzaini30">
+                    <div class="card">
+                        <img src="gambar/line.png" class="card-img-top">
+                        <div class="card-block">
+                            <h4 class="card-title">LINE</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="masonry-item">
+                <a target="_blank" href="http://telegram.me/mzaini30">
+                    <div class="card">
+                        <img src="gambar/telegram.png" class="card-img-top">
+                        <div class="card-block">
+                            <h4 class="card-title">Telegram</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="masonry-item">
+                <a target="_blank" href="mailto:muhzaini30@gmail.com">
+                    <div class="card">
+                        <img src="gambar/gmail.jpg" class="card-img-top">
+                        <div class="card-block">
+                            <h4 class="card-title">Email</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+</body>
 
-    {% if post.image.feature %}
-    <div class="post-image-feature">
-      <img src=
-      {% if post.image.feature contains 'http' %}
-      "{{ post.image.feature }}"
-      {% else %}
-      "{{ site.url }}/gambar/{{ post.image.feature }}"
-      {% endif %}
-      alt="{{ post.title }} feature image">
-
-      {% if post.image.credit %}
-      <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
-      {% endif %}
-    </div><!-- /.image-wrap -->
-    {% endif %}
-
-</section>
-{% endfor %}
-
-{% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="page-prev">Halaman Sebelumnya</a>
-    {% endif %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="page-next">Halaman Berikutnya</a>
-    {% endif %}
-  </div>
-  <div class="jarak">&nbsp;</div>
-{% endif %}
+</html>
