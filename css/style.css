@@ -8,7 +8,7 @@ a:hover {
 }
 
 .masonry-item {
-    width: 33.333%;
+    width: 25%;
     padding: 2%;
     box-sizing: border-box;
 }
@@ -17,28 +17,24 @@ a:hover {
 /*
 @media (max-width: 1200px) {
     .masonry-item {
-        width: 33.333%;
+        width: 25%;
     }
 }
 */
 
 @media (max-width: 992px) {
     .masonry-item {
-        width: 50%;
+        width: 33.333%;
     }
 }
 
 @media (max-width: 768px) {
     .masonry-item {
-        width: 100%;
+        width: 50%;
     }
 }
 
-.masonry-item img {
+.masonry-item img,
+.w3-display-container img {
     width: 100%;
-}
-
-.tengah {
-    display: table;
-    margin: auto;
 }
