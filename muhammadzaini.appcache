@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+js/app.js
+gambar/header.jpg
+gambar/logo-bbm.jpg
+gambar/logo-blogger.png
+gambar/logo-codepolitan.jpg
+gambar/logo-facebook.png
+gambar/logo-github.jpg
+gambar/logo-gmail.jpg
+gambar/logo-goodreads.jpg
+gambar/logo-instagram.jpg
+gambar/logo-line.jpg
+gambar/logo-pastebin.png
+gambar/logo-telegram.jpg
+gambar/logo-twitter.jpg
+gambar/misaka-mikoto.jpg
+bin/js/imagesloaded.pkgd.min.js
+bin/js/jquery.min.js
+bin/js/masonry.pkgd.min.js
+bin/css/w3.css
