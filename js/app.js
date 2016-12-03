@@ -4,11 +4,4 @@ $(function() {
 			itemSelector: ".masonry-item"
 		})
 	})
-	lagu = function() {
-		$(".soundcloud").height($(".soundcloud").width())
-	}
-	lagu()
-	$(window).resize(function() {
-		lagu()
-	})
 })
