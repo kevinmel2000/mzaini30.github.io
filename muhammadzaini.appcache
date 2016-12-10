@@ -6,6 +6,8 @@ js/app.js
 gambar/wikia.ico
 gambar/header.jpg
 gambar/logo-bbm.jpg
+gambar/logo-blogger.png
+gambar/logo-codepolitan.jpg
 gambar/logo-facebook.png
 gambar/logo-github.jpg
 gambar/logo-gmail.jpg
@@ -16,6 +18,7 @@ gambar/logo-pastebin.png
 gambar/logo-telegram.jpg
 gambar/logo-twitter.jpg
 gambar/logo-pinterest.jpg
+gambar/logo-codepen.jpg
 gambar/misaka-mikoto.jpg
 bin/js/imagesloaded.pkgd.min.js
 bin/js/jquery.min.js
