@@ -10,7 +10,7 @@ $(function() {
 		$(".footer p").html("We are Anonymous. We are Legion. We do not Forgive. We do not Forget. Expect Us")
 		$("html, body").animate({
 			scrollTop: 0
-		}, 800)
+		}, 1000)
 	}
 	$masonry = $(".masonry").imagesLoaded(function() {
 		$masonry.masonry({
