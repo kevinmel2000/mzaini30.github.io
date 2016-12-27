@@ -10,7 +10,7 @@ $(function() {
 		$(".footer p").html("We are Anonymous. We are Legion. We do not Forgive. We do not Forget. Expect Us")
 		$("html, body").animate({
 			scrollTop: 0
-		}, 1000).promise().then(function(){alert("2017: 15 juz. IP 3,9. 100 buku")})	
+		}, 1000).promise().then(function(){alert("2017: 15 juz. IP 3,9. Nabung sebanyak-banyaknya")})	
 }
 	$masonry = $(".masonry").imagesLoaded(function() {
 		$masonry.masonry({
